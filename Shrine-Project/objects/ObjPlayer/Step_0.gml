@@ -16,11 +16,11 @@ inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-if place_free(x + hSpeed, y)
+if place_free(x + hSpeed, y) && stopMove = false
 	{
 		x += hSpeed
 	}
-if place_free(x, y + vSpeed)
+if place_free(x, y + vSpeed) && stopMove = false
 	{
 		y += vSpeed
 	}
@@ -51,7 +51,9 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerL //Melee Attack Left
 			image_angle : 180
 		 });
 	 cooldownM = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
+	 alarm_set(5,15);
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerR //Melee Attack Right
  {
@@ -60,7 +62,9 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerR //Melee Attack Right
 			image_angle : 0
 		});
 	 cooldownM = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
+	 alarm_set(5,15);
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerU //Melee Attack Up
  {
@@ -69,7 +73,9 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerU //Melee Attack Up
 			image_angle : 90
 		});
 	 cooldownM = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
+	 alarm_set(5,15);
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerD //Melee Attack Down
  {
@@ -78,7 +84,9 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerD //Melee Attack Down
 			image_angle : 270
 		});
 	 cooldownM = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
+	 alarm_set(5,15);
  }
 // Ranged Atack
 if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerL //Range Attack Left
@@ -90,7 +98,9 @@ if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerL
 		});
 	 global.stockR -= 1;
 	 cooldownR = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(1,30);
+	 alarm_set(5,15);
  }
 if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerR //Range Attack Right
  {
@@ -101,7 +111,9 @@ if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerR
 		});
 	 global.stockR -= 1;
 	 cooldownR = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(1,30);
+	 alarm_set(5,15);
  }
 if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerU //Range Attack Up
 {
@@ -112,7 +124,9 @@ if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerU
 		});
 	 global.stockR -= 1;
 	 cooldownR = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(1,30);
+	 alarm_set(5,15);
 }
 if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerD //Range Attack Down
  {
@@ -123,7 +137,9 @@ if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerD
 		});
 	 global.stockR -= 1;
 	 cooldownR = true; //Attack cooldown
+	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(1,30);
+	 alarm_set(5,15);
  }
  
  global.stockR = clamp(global.stockR, 0, 30)
