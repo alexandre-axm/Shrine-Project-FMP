@@ -3,7 +3,7 @@
 function check_for_player()
 {
 	var _dis = distance_to_object(ObjPlayer);
-	if ((_dis <= alertDis) or alert) and _dis > attackDis
+	if ((_dis <= alertDis) || distance_to_object(ObjWall) <= 15 || alert) and _dis > attackDis
 	{
 		alert = true;
 			
@@ -19,9 +19,9 @@ function check_for_player()
 	}
 	else 
 	{
-		if _dis <= attackDis
+		//if _dis <= attackDis
 		{
-			path_end();
+			//path_end();
 		}
 	}
 }

@@ -4,7 +4,7 @@
   "name": "SprOfudaR",
   "bbox_bottom": 7,
   "bbox_left": 0,
-  "bbox_right": 5,
+  "bbox_right": 4,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Items",
+    "path": "folders/Sprites/Items.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 3,
+    "xorigin": 2,
     "yorigin": 4,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 6,
+  "width": 5,
 }

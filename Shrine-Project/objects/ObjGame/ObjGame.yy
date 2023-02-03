@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Control",
-    "path": "folders/Control.yy",
+    "name": "Function",
+    "path": "folders/Objects/Function.yy",
   },
   "parentObjectId": null,
   "persistent": false,

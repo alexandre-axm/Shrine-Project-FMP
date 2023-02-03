@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
-    "path": "folders/Entity/Enemy.yy",
+    "path": "folders/Objects/Entity/Enemy.yy",
   },
   "parentObjectId": {
     "name": "ObjEnemy2Par",

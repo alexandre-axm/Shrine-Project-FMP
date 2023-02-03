@@ -150,3 +150,5 @@ if keyRange && cooldownR = false && global.stockR > 0 && sprite_index = sPlayerD
 	{
 		room_goto(GameOver);
 	}
+	
+//if global.cooldownH = true;		

@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjGameOverRestart",
+  "name": "ObjMenuTestLevel",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Control",
-    "path": "folders/Control.yy",
+    "name": "Function",
+    "path": "folders/Objects/Function.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprWall",
-    "path": "sprites/SprWall/SprWall.yy",
+    "name": "SprTestLevel",
+    "path": "sprites/SprTestLevel/SprTestLevel.yy",
   },
   "spriteMaskId": null,
   "visible": true,
