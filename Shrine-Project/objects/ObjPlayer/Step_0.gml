@@ -46,10 +46,14 @@ if vSpeed < 0 //Face Up
 // Melee Attack
 if keyMelee && cooldownM = false && sprite_index = sPlayerL //Melee Attack Left
  {
-	 instance_create_layer(x - 16, y, "Instances", ObjMHitbox,
-		 {
-			image_angle : 180
-		 });
+	 instance_create_layer(x - 32, y - 32, "Instances", ObjMHitbox,
+		{
+			image_angle : 90
+		});
+	 with ObjMHitbox
+		{
+			path_start(pthPlayerMeleeL,6,path_action_stop,false)
+		}
 	 cooldownM = true; //Attack cooldown
 	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
@@ -57,10 +61,14 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerL //Melee Attack Left
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerR //Melee Attack Right
  {
-	 instance_create_layer(x + 16, y, "Instances", ObjMHitbox,
+	 instance_create_layer(x + 32, y + 32, "Instances", ObjMHitbox,
+	 {
+		 image_angle : 270
+	 });
+	 with ObjMHitbox
 		{
-			image_angle : 0
-		});
+			path_start(pthPlayerMeleeR,6,path_action_stop,false)
+		}
 	 cooldownM = true; //Attack cooldown
 	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
@@ -68,10 +76,11 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerR //Melee Attack Right
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerU //Melee Attack Up
  {
-	 instance_create_layer(x, y - 16, "Instances", ObjMHitbox,
+	 instance_create_layer(x + 32, y - 32, "Instances", ObjMHitbox);
+	 with ObjMHitbox
 		{
-			image_angle : 90
-		});
+			path_start(pthPlayerMeleeU,6,path_action_stop,false)
+		}
 	 cooldownM = true; //Attack cooldown
 	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
@@ -79,10 +88,11 @@ if keyMelee && cooldownM = false && sprite_index = sPlayerU //Melee Attack Up
  }
 if keyMelee && cooldownM = false && sprite_index = sPlayerD //Melee Attack Down
  {
-	 instance_create_layer(x, y + 16, "Instances", ObjMHitbox,
+	 instance_create_layer(x - 32, y + 32, "Instances", ObjMHitbox);
+	 with ObjMHitbox
 		{
-			image_angle : 270
-		});
+			path_start(pthPlayerMeleeD,6,path_action_stop,false)
+		}
 	 cooldownM = true; //Attack cooldown
 	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(0,30);
