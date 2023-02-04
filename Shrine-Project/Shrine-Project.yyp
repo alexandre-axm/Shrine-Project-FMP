@@ -75,6 +75,7 @@
     {"id":{"name":"check_for_player2","path":"scripts/check_for_player2/check_for_player2.yy",},"order":1,},
     {"id":{"name":"ObjDropR","path":"objects/ObjDropR/ObjDropR.yy",},"order":11,},
     {"id":{"name":"SprOfuda","path":"sprites/SprOfuda/SprOfuda.yy",},"order":2,},
+    {"id":{"name":"weird","path":"sprites/weird/weird.yy",},"order":0,},
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"order":0,},
     {"id":{"name":"ObjDropY","path":"objects/ObjDropY/ObjDropY.yy",},"order":13,},
     {"id":{"name":"ObjDoor","path":"objects/ObjDoor/ObjDoor.yy",},"order":8,},

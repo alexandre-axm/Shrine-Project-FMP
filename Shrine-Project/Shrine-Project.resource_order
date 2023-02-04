@@ -54,6 +54,7 @@
     {"name":"check_for_player2","order":1,"path":"scripts/check_for_player2/check_for_player2.yy",},
     {"name":"ObjDropR","order":1,"path":"objects/ObjDropR/ObjDropR.yy",},
     {"name":"SprOfuda","order":5,"path":"sprites/SprOfuda/SprOfuda.yy",},
+    {"name":"weird","order":20,"path":"sprites/weird/weird.yy",},
     {"name":"ObjDropY","order":2,"path":"objects/ObjDropY/ObjDropY.yy",},
     {"name":"ObjDoor","order":2,"path":"objects/ObjDoor/ObjDoor.yy",},
     {"name":"SprBox","order":1,"path":"sprites/SprBox/SprBox.yy",},
