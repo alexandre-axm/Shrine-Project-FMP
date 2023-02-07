@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "check_for_player2",
+  "name": "EnemyStateKnockback",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

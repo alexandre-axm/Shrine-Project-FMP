@@ -1,3 +1,5 @@
+state = PlayerStateFree;
+
 //Movement
 image_speed = 0;
 hSpeed = 0;

@@ -1,10 +1,19 @@
-// You can write your code in this editor
-check_for_player();
+event_inherited();
 
-if eHealth <= 0
+switch(state)
 	{
-		instance_destroy(self)
-		global.enemiesLeft -= 1
+		case states.IDLE:
+			check_for_player();
+			//EnemySpriteControl();
+		break;
+		case states.MOVE:
+			check_for_player();
+			//EnemySpriteControl();
+		break;
+		case states.ATTACK:
+			//EnemySpriteControl();
+		break;
+		case states.DEAD:
+			//EnemySpriteControl();
+		break;
 	}
-
-

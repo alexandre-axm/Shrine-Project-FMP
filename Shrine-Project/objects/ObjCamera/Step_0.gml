@@ -1,6 +1,6 @@
 // You can write your code in this editor
 
-var cameraPanSpeed = 4;
+var cameraPanSpeed = 5;
 
 var camera = view_get_camera(0);
 

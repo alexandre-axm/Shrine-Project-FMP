@@ -1,4 +1,4 @@
-// You can write your code in this editor
+// Damage Player
 if global.defenceUp = false && global.cooldownH = false && cooldownE = false
 	{
 		global.playerHealth -= 1;

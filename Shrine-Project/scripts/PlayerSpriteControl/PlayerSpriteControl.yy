@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "check_for_player2",
+  "name": "PlayerSpriteControl",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Scripts/Enemy.yy",
+    "name": "Player",
+    "path": "folders/Scripts/Player.yy",
   },
 }

@@ -1,6 +1,7 @@
 //
+
 if global.attackUp = false && cooldownE = false
-	{
+	{	
 		eHealth -= 1;
 		cooldownE = true;
 		alarm_set(0,60);

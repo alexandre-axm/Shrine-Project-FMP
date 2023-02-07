@@ -1,3 +1,5 @@
+event_inherited();
+
 global.enemiesLeft += 1;
 eHealth = 2;
 cooldownE = false;
