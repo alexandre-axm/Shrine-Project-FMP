@@ -73,7 +73,6 @@
     {"id":{"name":"SprPlayerD","path":"sprites/SprPlayerD/SprPlayerD.yy",},"order":0,},
     {"id":{"name":"SprDropY","path":"sprites/SprDropY/SprDropY.yy",},"order":10,},
     {"id":{"name":"SprBoss1","path":"sprites/SprBoss1/SprBoss1.yy",},"order":0,},
-    {"id":{"name":"EnemyStateKnockback","path":"scripts/EnemyStateKnockback/EnemyStateKnockback.yy",},"order":0,},
     {"id":{"name":"EnemySpriteControl","path":"scripts/EnemySpriteControl/EnemySpriteControl.yy",},"order":0,},
     {"id":{"name":"ObjMHitbox","path":"objects/ObjMHitbox/ObjMHitbox.yy",},"order":3,},
     {"id":{"name":"ObjEnemy2K","path":"objects/ObjEnemy2K/ObjEnemy2K.yy",},"order":4,},

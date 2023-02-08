@@ -52,7 +52,6 @@
     {"name":"SprPlayerR","order":2,"path":"sprites/SprPlayerR/SprPlayerR.yy",},
     {"name":"ObjWall","order":4,"path":"objects/ObjWall/ObjWall.yy",},
     {"name":"SprDropY","order":2,"path":"sprites/SprDropY/SprDropY.yy",},
-    {"name":"EnemyStateKnockback","order":2,"path":"scripts/EnemyStateKnockback/EnemyStateKnockback.yy",},
     {"name":"EnemySpriteControl","order":3,"path":"scripts/EnemySpriteControl/EnemySpriteControl.yy",},
     {"name":"ObjMHitbox","order":2,"path":"objects/ObjMHitbox/ObjMHitbox.yy",},
     {"name":"ObjEnemy2K","order":4,"path":"objects/ObjEnemy2K/ObjEnemy2K.yy",},

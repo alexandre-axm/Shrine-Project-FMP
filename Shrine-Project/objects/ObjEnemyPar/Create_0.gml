@@ -1,5 +1,10 @@
-// You can write your code in this editor
+//Start In Idle State
 state = states.IDLE
-//Previous Positions
-xp = x;
-yp = y;
+
+kbDir = 0;
+kbSpeed = 0;
+kbMaxSpeed = 4;
+kbDec = 0.2;
+
+//Set Item Drop Value
+drop = 0

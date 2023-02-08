@@ -23,6 +23,11 @@ global.cooldownH = false;
 cooldownM = false;
 cooldownR = false;
 
+kbDir = 0;
+kbSpeed = 0;
+kbMaxSpeed = 4;
+kbDec = 0.2;
+
 //Power Ups
 global.attackUp = false;
 global.defenceUp = false;

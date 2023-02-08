@@ -1,4 +1,3 @@
-// Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function check_for_player()
 {
@@ -19,9 +18,9 @@ function check_for_player()
 	}
 	else 
 	{
-		//if _dis <= attackDis
+		if _dis <= attackDis
 		{
-			//path_end();
+			path_end();
 		}
 	}
 }

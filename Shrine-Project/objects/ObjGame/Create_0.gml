@@ -1,11 +1,11 @@
-// You can write your code in this editor
-enum states
+enum states //Enemy States
 	{
 		IDLE,
 		MOVE,
 		ATTACK,
 		DEAD,
 	}
-global.mpGrid = 0;
+
+global.mpGrid = 0; //Enemy AI Grid
 
 

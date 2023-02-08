@@ -16,11 +16,11 @@ inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 script_execute(state);
 
 //Change State
-if ((keyMelee) && cooldownM = false) //Melee Attack
+if ((keyMelee) && !cooldownM) //Melee Attack
 	{
 		state = PlayerStateMelee;
 	}
-if ((keyRange) && cooldownR = false && global.stockR > 0) //Ranged Attack
+if ((keyRange) && !cooldownR && global.stockR > 0) //Ranged Attack
 	{
 		state = PlayerStateRange;
 	}

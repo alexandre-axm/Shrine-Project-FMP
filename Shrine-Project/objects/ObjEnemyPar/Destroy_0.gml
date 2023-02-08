@@ -1,13 +1,14 @@
-// You can write your code in this editor
-if choose(1,2,3,4,5,6,7,8,9,10) = 1
+// Drop Item On Defeat
+drop = choose(1,2,3,4,5,6,7,8,9,10); //Choose Drop Value
+if drop = 1 //Health Up
 	{
 		instance_create_layer(x, y, "Instances", ObjDropR);
-	}
-if choose(1,2,3,4,5,6,7,8,9,10) = 2
+	};
+if drop = 2 //Defence Up
 	{
 		instance_create_layer(x, y, "Instances", ObjDropB);
-	}
-if choose(1,2,3,4,5,6,7,8,9,10) = 3
+	};
+if drop = 3 //Attack Up
 	{
 		instance_create_layer(x, y, "Instances", ObjDropY);
-	}
+	};
