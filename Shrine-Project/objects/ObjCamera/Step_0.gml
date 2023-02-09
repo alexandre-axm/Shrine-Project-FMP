@@ -4,13 +4,13 @@ var cameraPanSpeed = 5;
 
 var camera = view_get_camera(0);
 
-var desiredX = ObjPlayer.x / 480
+var desiredX = ObjPlayer.x / 512;
 desiredX -= frac(desiredX);
-desiredX *= 480;
+desiredX *= 512;
 
-var desiredY = ObjPlayer.y / 352;
+var desiredY = ObjPlayer.y / 384;
 desiredY -= frac(desiredY);
-desiredY *= 352;
+desiredY *= 384;
 
 var currentX = camera_get_view_x(camera);
 var currentY = camera_get_view_y(camera);
