@@ -1,11 +1,12 @@
-draw_sprite_ext(
-sprite_index, 
-image_index, 
-floor(x), 
-floor(y), 
-image_xscale, 
-image_yscale,
-image_angle,
-image_blend,
-image_alpha
-)
+if state != PlayerStateKnockback
+{
+	shader_set(ShDefault);
+	draw_self();
+	shader_reset();
+};
+else
+{
+	shader_set(ShDamage);
+	draw_self();
+	shader_reset();
+};
