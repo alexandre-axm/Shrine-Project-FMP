@@ -8,9 +8,11 @@ vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 if place_free(x + hSpeed, y) && stopMove = false
 	{
 		x += hSpeed
+		image_speed = 0;
 	}
 if place_free(x, y + vSpeed) && stopMove = false
 	{
 		y += vSpeed
+		image_speed = 0;
 	}
 }
