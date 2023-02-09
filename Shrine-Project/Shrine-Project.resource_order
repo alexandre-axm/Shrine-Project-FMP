@@ -52,9 +52,9 @@
     {"name":"ObjBarrier2","order":1,"path":"objects/ObjBarrier2/ObjBarrier2.yy",},
     {"name":"SprMHitbox","order":4,"path":"sprites/SprMHitbox/SprMHitbox.yy",},
     {"name":"check_for_player2","order":1,"path":"scripts/check_for_player2/check_for_player2.yy",},
+    {"name":"moving","order":6,"path":"sprites/moving/moving.yy",},
     {"name":"ObjDropR","order":1,"path":"objects/ObjDropR/ObjDropR.yy",},
     {"name":"SprOfuda","order":5,"path":"sprites/SprOfuda/SprOfuda.yy",},
-    {"name":"weird","order":20,"path":"sprites/weird/weird.yy",},
     {"name":"ObjDropY","order":2,"path":"objects/ObjDropY/ObjDropY.yy",},
     {"name":"ObjDoor","order":2,"path":"objects/ObjDoor/ObjDoor.yy",},
     {"name":"SprBox","order":1,"path":"sprites/SprBox/SprBox.yy",},
@@ -69,5 +69,6 @@
     {"name":"ObjKey","order":3,"path":"objects/ObjKey/ObjKey.yy",},
     {"name":"ObjEnemy2Par","order":2,"path":"objects/ObjEnemy2Par/ObjEnemy2Par.yy",},
     {"name":"ObjEnemy2","order":3,"path":"objects/ObjEnemy2/ObjEnemy2.yy",},
+    {"name":"Sprite21","order":1,"path":"sprites/Sprite21/Sprite21.yy",},
   ],
 }
