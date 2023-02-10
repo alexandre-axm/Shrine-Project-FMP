@@ -30,8 +30,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "SprBox",
-    "path": "sprites/SprBox/SprBox.yy",
+    "name": "Sprcreate",
+    "path": "sprites/Sprcreate/Sprcreate.yy",
   },
   "spriteMaskId": null,
   "visible": true,

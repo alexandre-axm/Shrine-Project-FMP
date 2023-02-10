@@ -34,6 +34,7 @@
     {"name":"MainMenu","order":2,"path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"SprKey","order":3,"path":"sprites/SprKey/SprKey.yy",},
     {"name":"GameOver","order":1,"path":"rooms/GameOver/GameOver.yy",},
+    {"name":"Sprcreate","order":4,"path":"sprites/Sprcreate/Sprcreate.yy",},
     {"name":"LevelClear","order":3,"path":"rooms/LevelClear/LevelClear.yy",},
     {"name":"SprOfudaR","order":4,"path":"sprites/SprOfudaR/SprOfudaR.yy",},
     {"name":"ObjBoss1","order":5,"path":"objects/ObjBoss1/ObjBoss1.yy",},

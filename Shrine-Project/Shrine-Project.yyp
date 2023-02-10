@@ -52,6 +52,7 @@
     {"id":{"name":"SprDropB","path":"sprites/SprDropB/SprDropB.yy",},"order":9,},
     {"id":{"name":"ObjBarrier","path":"objects/ObjBarrier/ObjBarrier.yy",},"order":9,},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},"order":0,},
+    {"id":{"name":"Sprcreate","path":"sprites/Sprcreate/Sprcreate.yy",},"order":0,},
     {"id":{"name":"LevelClear","path":"rooms/LevelClear/LevelClear.yy",},"order":0,},
     {"id":{"name":"SprOfudaR","path":"sprites/SprOfudaR/SprOfudaR.yy",},"order":13,},
     {"id":{"name":"SprTestLevel","path":"sprites/SprTestLevel/SprTestLevel.yy",},"order":0,},
