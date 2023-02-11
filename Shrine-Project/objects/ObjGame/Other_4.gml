@@ -12,4 +12,5 @@ global.mpGrid = mp_grid_create(0, 0, _w, _h, TS, TS);
 mp_grid_add_instances(global.mpGrid, ObjWall, false);
 mp_grid_add_instances(global.mpGrid, ObjDoor, false);
 mp_grid_add_instances(global.mpGrid, ObjBarrier, false);
+mp_grid_add_instances(global.mpGrid, ObjBox, false);
 

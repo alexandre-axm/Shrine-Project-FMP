@@ -35,7 +35,6 @@ if global.cooldownH = true //Taking Damage
 
 //Sprite Control
 PlayerSpriteControl();
-
  
  global.stockR = clamp(global.stockR, 0, 30)
  global.playerHealth = clamp(global.playerHealth, 0, 10)

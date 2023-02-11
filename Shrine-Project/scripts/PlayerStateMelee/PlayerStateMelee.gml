@@ -1,7 +1,10 @@
 function PlayerStateMelee()
 {
-if sprite_index = sPlayerL //Melee Attack Left
+if facing = 2 //sprite_index = sPlayerL //Melee Attack Left
  {
+	 sprite_index = sMAttackL;
+	 image_speed = 1;
+	 attacking = true;
 	 instance_create_layer(x - 32, y - 32, "Instances", ObjMHitbox,
 		{
 			image_angle : 90
@@ -16,8 +19,11 @@ if sprite_index = sPlayerL //Melee Attack Left
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerR //Melee Attack Right
+if facing = 0 //sprite_index = sPlayerR //Melee Attack Right
  {
+	 sprite_index = sMAttackR;
+	 image_speed = 1;
+	 attacking = true;
 	 instance_create_layer(x + 32, y + 32, "Instances", ObjMHitbox,
 	 {
 		 image_angle : 270
@@ -32,8 +38,11 @@ if sprite_index = sPlayerR //Melee Attack Right
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerU //Melee Attack Up
+if facing = 1 //sprite_index = sPlayerU //Melee Attack Up
  {
+	 sprite_index = sMAttackU;
+	 image_speed = 1;
+	 attacking = true;
 	 instance_create_layer(x + 32, y - 32, "Instances", ObjMHitbox);
 	 with ObjMHitbox
 		{
@@ -45,8 +54,11 @@ if sprite_index = sPlayerU //Melee Attack Up
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerD //Melee Attack Down
+if facing = 3 //sprite_index = sPlayerD //Melee Attack Down
  {
+	 sprite_index = sMAttackD;
+	 image_speed = 1;
+	 attacking = true;
 	 instance_create_layer(x - 32, y + 32, "Instances", ObjMHitbox);
 	 with ObjMHitbox
 		{
@@ -57,6 +69,5 @@ if sprite_index = sPlayerD //Melee Attack Down
 		alarm_set(0,30);
 		alarm_set(5,15);		
  }
-
 state = PlayerStateFree;
 };
