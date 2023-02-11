@@ -34,6 +34,26 @@ if global.cooldownH = true //Taking Damage
 	}
 
 //Sprite Control
+if hSpeed > 0 //Face Right
+	{
+		facing = 180;
+		image_speed = 1;
+	};
+if hSpeed < 0 //Face Left
+	{
+		facing = 0;
+		image_speed = 1;
+	};
+if vSpeed > 0 //Face Down
+	{
+		facing = 90;
+		image_speed = 1;
+	};
+if vSpeed < 0 //Face Up
+	{
+		facing = 270;
+		image_speed = 1;
+	};
 PlayerSpriteControl();
 
  

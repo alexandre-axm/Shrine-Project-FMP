@@ -1,6 +1,6 @@
 function PlayerStateMelee()
 {
-if sprite_index = sPlayerL //Melee Attack Left
+if facing = 0 //Melee Attack Left
  {
 	 instance_create_layer(x - 32, y - 32, "Instances", ObjMHitbox,
 		{
@@ -16,7 +16,7 @@ if sprite_index = sPlayerL //Melee Attack Left
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerR //Melee Attack Right
+if facing = 180 //Melee Attack Right
  {
 	 instance_create_layer(x + 32, y + 32, "Instances", ObjMHitbox,
 	 {
@@ -24,7 +24,7 @@ if sprite_index = sPlayerR //Melee Attack Right
 	 });
 	 with ObjMHitbox
 		{
-			path_start(pthPlayerMeleeR,10,path_action_stop,false)
+			path_start(pthPlayerMeleeR,-10,path_action_stop,false)
 		}
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement
@@ -32,12 +32,12 @@ if sprite_index = sPlayerR //Melee Attack Right
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerU //Melee Attack Up
+if facing = 270 //Melee Attack Up
  {
 	 instance_create_layer(x + 32, y - 32, "Instances", ObjMHitbox);
 	 with ObjMHitbox
 		{
-			path_start(pthPlayerMeleeU,10,path_action_stop,false)
+			path_start(pthPlayerMeleeU,-10,path_action_stop,false)
 		}
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement
@@ -45,12 +45,12 @@ if sprite_index = sPlayerU //Melee Attack Up
 		alarm_set(5,15);
  }
  
-if sprite_index = sPlayerD //Melee Attack Down
+if facing = 90 //Melee Attack Down
  {
 	 instance_create_layer(x - 32, y + 32, "Instances", ObjMHitbox);
 	 with ObjMHitbox
 		{
-			path_start(pthPlayerMeleeD,10,path_action_stop,false)
+			path_start(pthPlayerMeleeD,-10,path_action_stop,false)
 		}
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement

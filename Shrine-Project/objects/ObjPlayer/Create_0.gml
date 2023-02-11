@@ -6,12 +6,18 @@ hSpeed = 0;
 vSpeed = 0;
 speedWalk = 2;
 stopMove = false;
+facing = 0;
 
 //Sprites
 sPlayerL = SprPlayerL;
 sPlayerR = SprPlayerR;
 sPlayerU = SprPlayerU;
 sPlayerD = SprPlayerD;
+
+sMAttackL = SprMAttackL;
+sMAttackR = SprMAttackR;
+sMAttackU = SprMAttackU;
+sMAttackD = SprMAttackD;
 
 //Consumables
 global.playerHealth = 10;
