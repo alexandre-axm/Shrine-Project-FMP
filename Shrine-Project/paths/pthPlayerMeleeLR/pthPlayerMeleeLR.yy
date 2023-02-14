@@ -1,7 +1,7 @@
 {
   "resourceType": "GMPath",
   "resourceVersion": "1.0",
-  "name": "pthPlayerMeleeL",
+  "name": "pthPlayerMeleeLR",
   "closed": false,
   "kind": 0,
   "parent": {

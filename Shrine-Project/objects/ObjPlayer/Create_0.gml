@@ -7,17 +7,17 @@ vSpeed = 0;
 speedWalk = 2;
 stopMove = false;
 facing = 0;
-attacking = false;
 
 //Sprites
 sPlayerL = SprPlayerL;
 sPlayerR = SprPlayerR;
 sPlayerU = SprPlayerU;
 sPlayerD = SprPlayerD;
-sMAttackL = SprPlayerMAttackL;
-sMAttackR = SprPlayerMAttackR;
-sMAttackU = SprPlayerMAttackU;
-sMAttackD = SprPlayerMAttackD;
+
+sMAttackL = SprMAttackL;
+sMAttackR = SprMAttackR;
+sMAttackU = SprMAttackU;
+sMAttackD = SprMAttackD;
 
 //Consumables
 global.playerHealth = 10;
@@ -31,7 +31,7 @@ cooldownR = false;
 
 kbDir = 0;
 kbSpeed = 0;
-kbMaxSpeed = 4;
+kbMaxSpeed = 5;
 kbDec = 0.2;
 
 //Power Ups

@@ -1,49 +1,56 @@
-//
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerSpriteControl(){
-
-//Moving Sprite Direction
-if hSpeed > 0 //Face Left
+//Sprite Direction
+if facing = 180 //Face Right
 	{
-<<<<<<< Updated upstream
-		sprite_index = sPlayerR
+		if !stopMove
+		{
+			sprite_index = sPlayerR;
+		}
+		if state = PlayerStateMelee
+		{
+			sprite_index = sMAttackR;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
-if hSpeed < 0 //Face Right
+if facing = 0 //Face Left
 	{
-		sprite_index = sPlayerL
+		if !stopMove
+		{
+			sprite_index = sPlayerL;
+		}
+		if state = PlayerStateMelee
+		{
+			sprite_index = sMAttackL;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
-if vSpeed > 0 //Face Down
+if facing = 90 //Face Down
 	{
-		sprite_index = sPlayerD
+		if !stopMove
+		{
+			sprite_index = sPlayerD;
+		}
+		if state = PlayerStateMelee
+		{
+			sprite_index = sMAttackD;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
-if vSpeed < 0 //Face Up
+if facing = 270 //Face Up
 	{
-		sprite_index = sPlayerU
-=======
-		if state = PlayerStateFree{sprite_index = sPlayerR}
-		if state = PlayerStateMelee{sprite_index = sMAttackR}
-		image_speed = 1;
-		facing = 0;
+		if !stopMove
+		{
+			sprite_index = sPlayerU;
+		}
+		if state = PlayerStateMelee
+		{
+			sprite_index = sMAttackU;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
-if hSpeed < 0 //Face Right
-	{
-		if state = PlayerStateFree{sprite_index = sPlayerL}
-		if state = PlayerStateMelee{sprite_index = sMAttackL}
-		image_speed = 1;
-		facing = 2;
-	}
-if vSpeed > 0 //Face Down
-	{
-		if state = PlayerStateFree{sprite_index = sPlayerD}
-		if state = PlayerStateMelee{sprite_index = sMAttackD}
-		image_speed = 1;
-		facing = 3;
-	}
-if vSpeed < 0 //Face Up
-	{
-		if state = PlayerStateFree{sprite_index = sPlayerU}
-		if state = PlayerStateMelee{sprite_index = sMAttackU}
-		image_speed = 1;
-		facing = 1;
->>>>>>> Stashed changes
-	}
-}	
+};

@@ -15,26 +15,9 @@ inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 //State Machine
 script_execute(state);
 
-//Change State
-if ((keyMelee) && !cooldownM) //Melee Attack
-	{
-		state = PlayerStateMelee;
-	}
-if ((keyRange) && !cooldownR && global.stockR > 0) //Ranged Attack
-	{
-		state = PlayerStateRange;
-	}
-if global.playerHealth <= 0 //Game Over
-	{
-		state = PlayerStateDeath;
-	}
-if global.cooldownH = true //Taking Damage
-	{
-		state = PlayerStateKnockback;
-	}
-
 //Sprite Control
 PlayerSpriteControl();
+
  
  global.stockR = clamp(global.stockR, 0, 30)
  global.playerHealth = clamp(global.playerHealth, 0, 10)

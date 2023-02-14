@@ -1,3 +1,4 @@
-// You can write your code in this editor
+// Rotate Sprite
+
 draw_self();
 image_angle = 270;
