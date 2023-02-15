@@ -33,5 +33,5 @@
     "path": "sprites/SprMHitbox/SprMHitbox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

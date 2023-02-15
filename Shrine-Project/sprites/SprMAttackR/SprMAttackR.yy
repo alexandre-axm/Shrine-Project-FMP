@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Melee Attack",
+    "path": "folders/Sprites/Player/Melee Attack.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

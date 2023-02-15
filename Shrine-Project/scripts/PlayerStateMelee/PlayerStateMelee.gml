@@ -47,7 +47,7 @@ if facing = 270 //Melee Attack Up
  
 if facing = 90 //Melee Attack Down
  {
-	 instance_create_layer(x - 32, y + 24, "Instances", ObjMHitbox);
+	 instance_create_layer(x - 24, y + 24, "Instances", ObjMHitbox);
 	 with ObjMHitbox
 		{
 			path_start(pthPlayerMeleeUD,-8,path_action_stop,false)

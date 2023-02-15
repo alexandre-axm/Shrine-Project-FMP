@@ -17,22 +17,22 @@ if place_free(x, y + vSpeed) && !stopMove
 	}
 
 //Sprite Direction
-if hSpeed > 0 && !cooldownM //Face Right
+if hSpeed > 0 && !cooldownM && !cooldownR //Face Right
 	{
 		facing = 180;
 		image_speed = 1;
 	};
-if hSpeed < 0 && !cooldownM //Face Left
+if hSpeed < 0 && !cooldownM && !cooldownR //Face Left
 	{
 		facing = 0;
 		image_speed = 1;
 	};
-if vSpeed > 0 && !cooldownM //Face Down
+if vSpeed > 0 && !cooldownM && !cooldownR //Face Down
 	{
 		facing = 90;
 		image_speed = 1;
 	};
-if vSpeed < 0 && !cooldownM //Face Up
+if vSpeed < 0 && !cooldownM && !cooldownR //Face Up
 	{
 		facing = 270;
 		image_speed = 1;

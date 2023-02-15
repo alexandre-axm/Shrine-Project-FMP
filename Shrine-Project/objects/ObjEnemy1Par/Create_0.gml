@@ -9,7 +9,7 @@ alert = false;
 
 //distance to start chasing
 alertDis = 120;
-attackDis = 5;
+attackDis = 0;
 
 //path resource
 path = path_add();

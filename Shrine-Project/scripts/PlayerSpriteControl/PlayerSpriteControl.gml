@@ -13,6 +13,12 @@ if facing = 180 //Face Right
 			image_index = 0;
 			image_speed = 3;
 		}
+		if state = PlayerStateRange
+		{
+			sprite_index = sRAttackR;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
 if facing = 0 //Face Left
 	{
@@ -23,6 +29,12 @@ if facing = 0 //Face Left
 		if state = PlayerStateMelee
 		{
 			sprite_index = sMAttackL;
+			image_index = 0;
+			image_speed = 3;
+		}
+		if state = PlayerStateRange
+		{
+			sprite_index = sRAttackL;
 			image_index = 0;
 			image_speed = 3;
 		}
@@ -39,6 +51,12 @@ if facing = 90 //Face Down
 			image_index = 0;
 			image_speed = 3;
 		}
+		if state = PlayerStateRange
+		{
+			sprite_index = sRAttackD;
+			image_index = 0;
+			image_speed = 3;
+		}
 	}
 if facing = 270 //Face Up
 	{
@@ -49,6 +67,12 @@ if facing = 270 //Face Up
 		if state = PlayerStateMelee
 		{
 			sprite_index = sMAttackU;
+			image_index = 0;
+			image_speed = 3;
+		}
+		if state = PlayerStateRange
+		{
+			sprite_index = sRAttackU;
 			image_index = 0;
 			image_speed = 3;
 		}
