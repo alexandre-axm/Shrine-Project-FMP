@@ -14,6 +14,6 @@ attackDis = 0;
 //path resource
 path = path_add();
 
-moveSpd = 1;
+moveSpd = 2.5;
 pathDelay = 30;
 pathTimer = irandom(40);

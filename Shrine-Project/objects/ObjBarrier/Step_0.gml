@@ -1,5 +1,5 @@
 // You can write your code in this editor
-if global.enemiesLeft <= 29
+if global.enemiesLeft <= 38
 	{
 		instance_destroy(self)
 	}

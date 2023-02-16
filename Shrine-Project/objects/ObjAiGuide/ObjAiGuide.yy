@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjWall",
+  "name": "ObjAiGuide",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -24,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "SprWall",
-    "path": "sprites/SprWall/SprWall.yy",
+    "name": "SprAiGuide",
+    "path": "sprites/SprAiGuide/SprAiGuide.yy",
   },
   "spriteMaskId": null,
   "visible": false,

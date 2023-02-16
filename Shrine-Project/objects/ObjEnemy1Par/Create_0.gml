@@ -8,12 +8,12 @@ cooldownE = false;
 alert = false;
 
 //distance to start chasing
-alertDis = 120;
+alertDis = 150;
 attackDis = 0;
 
 //path resource
 path = path_add();
 
-moveSpd = 1;
+moveSpd = 1.5;
 pathDelay = 30;
 pathTimer = irandom(60);

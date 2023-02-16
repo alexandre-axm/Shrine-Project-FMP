@@ -46,6 +46,10 @@ if ((keyRange) && !cooldownR && global.stockR > 0) //Ranged Attack
 	{
 		state = PlayerStateRange;
 	}
+if keyGrab //Grab Throw
+	{
+		state = PlayerStateThrow;
+	}
 if global.playerHealth <= 0 //Game Over
 	{
 		state = PlayerStateDeath;
