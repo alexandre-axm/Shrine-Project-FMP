@@ -38,17 +38,24 @@ if vSpeed < 0 && !cooldownM && !cooldownR //Face Up
 		image_speed = 1;
 	};
 //Change State
-if ((keyMelee) && !cooldownM) //Melee Attack
+if ((keyMelee) && !cooldownM && !holding) //Melee Attack
 	{
 		state = PlayerStateMelee;
 	}
-if ((keyRange) && !cooldownR && global.stockR > 0) //Ranged Attack
+if ((keyRange) && !cooldownR && !holding && global.stockR > 0) //Ranged Attack
 	{
 		state = PlayerStateRange;
 	}
-if keyGrab //Grab Throw
+if keyGrab  //Grab Throw
 	{
-		state = PlayerStateThrow;
+		if !holding
+			{
+				state = PlayerStateGrab;
+			}
+		if holding && !cooldownM
+			{
+				state = PlayerStateThrow;
+			}
 	}
 if global.playerHealth <= 0 //Game Over
 	{

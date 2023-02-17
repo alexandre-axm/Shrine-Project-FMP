@@ -1,3 +1,5 @@
+event_inherited();
+
 state = PlayerStateFree;
 
 //Movement
@@ -7,6 +9,9 @@ vSpeed = 0;
 speedWalk = 2.25;
 stopMove = false;
 facing = 0;
+holding = false;
+
+z = 0;
 
 //Sprites
 sPlayerL = SprPlayerL;
@@ -34,6 +39,7 @@ global.cooldownH = false;
 cooldownM = false;
 cooldownR = false;
 
+//Knockback
 kbDir = 0;
 kbSpeed = 0;
 kbMaxSpeed = 5;

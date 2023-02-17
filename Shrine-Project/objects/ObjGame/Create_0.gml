@@ -7,5 +7,6 @@ enum states //Enemy States
 	}
 
 global.mpGrid = 0; //Enemy AI Grid
+global.lifted = noone;
 
 

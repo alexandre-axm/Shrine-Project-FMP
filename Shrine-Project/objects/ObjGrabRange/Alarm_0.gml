@@ -1,4 +1,2 @@
 // You can write your code in this editor
-
-lifted = false;
-thrown = false;
+instance_destroy(self);
