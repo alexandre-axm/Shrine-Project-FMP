@@ -1,4 +1,4 @@
-if global.attackUp = false && cooldownE = false //Standard Damage Value
+if !global.attackUp && !cooldownE //Standard Damage Value
 	{	
 		eHealth -= 1;
 		cooldownE = true;
@@ -7,7 +7,7 @@ if global.attackUp = false && cooldownE = false //Standard Damage Value
 		kbSpeed = kbMaxSpeed;
 		path_end();
 	};
-if global.attackUp = true && cooldownE = false //Increased Damage Value
+if global.attackUp && !cooldownE //Increased Damage Value
 	{
 		eHealth -= 2;
 		cooldownE = true;

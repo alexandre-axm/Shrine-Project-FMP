@@ -1,5 +1,5 @@
 // Damage Player
-if global.defenceUp = false && global.cooldownH = false && cooldownE = false
+if !global.defenceUp && !global.cooldownH && !cooldownE
 	{
 		global.playerHealth -= 1;
 		global.cooldownH = true;
@@ -10,7 +10,7 @@ if global.defenceUp = false && global.cooldownH = false && cooldownE = false
 				kbSpeed = kbMaxSpeed;
 			}
 	}
-if global.defenceUp = true && global.cooldownH = false && cooldownE = false
+if global.defenceUp && !global.cooldownH && !cooldownE
 	{
 		global.playerHealth -= 0.5;
 		global.cooldownH = true;

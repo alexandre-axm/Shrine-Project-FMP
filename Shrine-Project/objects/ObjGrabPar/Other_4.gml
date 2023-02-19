@@ -1,2 +1,4 @@
 // You can write your code in this editor
-collisionMap = layer_tilemap_get_id(layer_get_id("Walls"))
+wallMap = layer_tilemap_get_id(layer_get_id("Walls"));
+instanceMap = layer_tilemap_get_id(layer_get_id("Instances"));
+enemyMap = layer_tilemap_get_id(layer_get_id("Enemy"));

@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"12e5d326-56d4-49fc-acd4-40717ad4ee86","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 4,
   "parent": {
     "name": "Level",
     "path": "folders/Sprites/Level.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 12,
-    "yorigin": 24,
+    "yorigin": 12,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

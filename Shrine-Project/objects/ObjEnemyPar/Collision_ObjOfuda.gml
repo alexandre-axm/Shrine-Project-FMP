@@ -1,5 +1,4 @@
-//
-if global.attackUp = false && cooldownE = false
+if !global.attackUp && !cooldownE //Standard Attack Value
 	{
 		eHealth -= 1;
 		cooldownE = true;
@@ -7,8 +6,9 @@ if global.attackUp = false && cooldownE = false
 		instance_destroy(other);
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
+		path_end();
 	}
-if global.attackUp = true && cooldownE = false
+if global.attackUp && !cooldownE //Increased Attack Value
 	{
 		eHealth -= 2;
 		cooldownE = true;
@@ -16,4 +16,5 @@ if global.attackUp = true && cooldownE = false
 		instance_destroy(other);
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
+		path_end();
 	}

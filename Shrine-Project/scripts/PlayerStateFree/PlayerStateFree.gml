@@ -48,7 +48,7 @@ if ((keyRange) && !cooldownR && !holding && global.stockR > 0) //Ranged Attack
 	}
 if keyGrab  //Grab Throw
 	{
-		if !holding
+		if !holding && !cooldownM
 			{
 				state = PlayerStateGrab;
 			}
