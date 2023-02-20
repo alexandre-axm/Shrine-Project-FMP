@@ -1,7 +1,6 @@
 // You can write your code in this editor
 if global.enemiesLeft <= 38
 	{
-		global.target = self;
+		instance_destroy(self);
+		global.target = noone;
 	}
-
-

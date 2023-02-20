@@ -37,7 +37,7 @@ if (!lifted)
 			{
 				global.thrown = self;
 				solid = true;
-				throwDisTravelled = min(throwDisTravelled + 3, throwDis);
+				throwDisTravelled = min(throwDisTravelled + 4, throwDis);
 				x = xstart + lengthdir_x(throwDisTravelled, direction);
 				y = ystart + lengthdir_y(throwDisTravelled, direction);
 				if !place_free(x,y)

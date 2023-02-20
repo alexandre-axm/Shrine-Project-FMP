@@ -30,5 +30,5 @@
     "path": "sprites/SprWall/SprWall.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

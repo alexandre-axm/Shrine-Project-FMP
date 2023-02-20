@@ -34,8 +34,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"ObjCamera","order":4,"path":"objects/ObjCamera/ObjCamera.yy",},
+    {"name":"SprGuide","order":14,"path":"sprites/SprGuide/SprGuide.yy",},
     {"name":"ObjGrabRange","order":3,"path":"objects/ObjGrabRange/ObjGrabRange.yy",},
     {"name":"ObjGrabPar","order":3,"path":"objects/ObjGrabPar/ObjGrabPar.yy",},
+    {"name":"Level2","order":4,"path":"rooms/Level2/Level2.yy",},
     {"name":"SprDropR","order":1,"path":"sprites/SprDropR/SprDropR.yy",},
     {"name":"PlayerStateRange","order":3,"path":"scripts/PlayerStateRange/PlayerStateRange.yy",},
     {"name":"SprEnemy","order":1,"path":"sprites/SprEnemy/SprEnemy.yy",},
@@ -75,6 +77,7 @@
     {"name":"PlayerStateDeath","order":4,"path":"scripts/PlayerStateDeath/PlayerStateDeath.yy",},
     {"name":"SprOfuda","order":5,"path":"sprites/SprOfuda/SprOfuda.yy",},
     {"name":"ObjDropY","order":2,"path":"objects/ObjDropY/ObjDropY.yy",},
+    {"name":"ObjGuide","order":5,"path":"objects/ObjGuide/ObjGuide.yy",},
     {"name":"ObjDoor","order":2,"path":"objects/ObjDoor/ObjDoor.yy",},
     {"name":"SprBox","order":1,"path":"sprites/SprBox/SprBox.yy",},
     {"name":"ObjOfudaR","order":4,"path":"objects/ObjOfudaR/ObjOfudaR.yy",},
