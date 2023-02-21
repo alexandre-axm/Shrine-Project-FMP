@@ -5,7 +5,14 @@ if facing = 180 //Face Right
 	{
 		if !stopMove
 		{
-			sprite_index = sPlayerR;
+			if holding
+			{
+				sprite_index = sGrabR;
+			} 
+			else
+			{
+				sprite_index = sPlayerR;
+			}
 		}
 		if state = PlayerStateMelee
 		{
@@ -19,12 +26,31 @@ if facing = 180 //Face Right
 			image_index = 0;
 			image_speed = 3;
 		}
+		if state = PlayerStateThrow
+		{
+			sprite_index = sThrowR;
+			image_index = 0;
+			image_speed = 4;
+		}
+				if state = PlayerStateGrab
+		{
+			sprite_index = sThrowR;
+			image_index = 0;
+			image_speed = 2;
+		}
 	}
 if facing = 0 //Face Left
 	{
 		if !stopMove
 		{
-			sprite_index = sPlayerL;
+			if holding
+			{
+				sprite_index = sGrabL;
+			} 
+			else
+			{
+				sprite_index = sPlayerL;
+			}
 		}
 		if state = PlayerStateMelee
 		{
@@ -38,12 +64,31 @@ if facing = 0 //Face Left
 			image_index = 0;
 			image_speed = 3;
 		}
+		if state = PlayerStateThrow
+		{
+			sprite_index = sThrowL;
+			image_index = 0;
+			image_speed = 4;
+		}
+				if state = PlayerStateGrab
+		{
+			sprite_index = sThrowL;
+			image_index = 0;
+			image_speed = 2;
+		}
 	}
 if facing = 90 //Face Down
 	{
 		if !stopMove
 		{
-			sprite_index = sPlayerD;
+			if holding
+			{
+				sprite_index = sGrabD;
+			} 
+			else
+			{
+				sprite_index = sPlayerD;
+			}
 		}
 		if state = PlayerStateMelee
 		{
@@ -57,12 +102,31 @@ if facing = 90 //Face Down
 			image_index = 0;
 			image_speed = 3;
 		}
+		if state = PlayerStateThrow
+		{
+			sprite_index = sThrowD;
+			image_index = 0;
+			image_speed = 4;
+		}
+				if state = PlayerStateGrab
+		{
+			sprite_index = sThrowD;
+			image_index = 0;
+			image_speed = 2;
+		}
 	}
 if facing = 270 //Face Up
 	{
 		if !stopMove
 		{
-			sprite_index = sPlayerU;
+			if holding
+			{
+				sprite_index = sGrabU;
+			} 
+			else
+			{
+				sprite_index = sPlayerU;
+			}
 		}
 		if state = PlayerStateMelee
 		{
@@ -75,6 +139,18 @@ if facing = 270 //Face Up
 			sprite_index = sRAttackU;
 			image_index = 0;
 			image_speed = 3;
+		}
+		if state = PlayerStateThrow
+		{
+			sprite_index = sThrowU;
+			image_index = 0;
+			image_speed = 4;
+		}
+		if state = PlayerStateGrab
+		{
+			sprite_index = sThrowU;
+			image_index = 0;
+			image_speed = 2;
 		}
 	}
 };

@@ -14,20 +14,35 @@ holding = false;
 z = 0;
 
 //Sprites
+//Walk
 sPlayerL = SprPlayerL;
 sPlayerR = SprPlayerR;
 sPlayerU = SprPlayerU;
 sPlayerD = SprPlayerD;
 
+//Melee Attack
 sMAttackL = SprMAttackL;
 sMAttackR = SprMAttackR;
 sMAttackU = SprMAttackU;
 sMAttackD = SprMAttackD;
 
+//Ranged Attack
 sRAttackL = SprRAttackL;
 sRAttackR = SprRAttackR;
 sRAttackU = SprRAttackU;
 sRAttackD = SprRAttackD;
+
+//Grab
+sGrabL = SprGrabL;
+sGrabR = SprGrabR;
+sGrabU = SprGrabU;
+sGrabD = SprGrabD;
+
+//Throw
+sThrowL = SprThrowL;
+sThrowR = SprThrowR;
+sThrowU = SprThrowU;
+sThrowD = SprThrowD;
 
 //Consumables
 global.playerHealth = 10;
@@ -50,7 +65,6 @@ global.attackUp = false;
 global.defenceUp = false;
 
 global.enemiesLeft = 0;
-
 
 //Controller
 gamepad_set_axis_deadzone(0,0.5);

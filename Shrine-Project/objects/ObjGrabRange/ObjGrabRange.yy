@@ -33,5 +33,5 @@
     "path": "sprites/SprGrabRange/SprGrabRange.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

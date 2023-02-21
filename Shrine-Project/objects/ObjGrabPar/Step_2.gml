@@ -6,27 +6,27 @@ if lifted && (instance_exists(ObjPlayer))
 		persistent = true;
 		if ObjPlayer.facing = 0 //Left
 		{
-			x = ObjPlayer.x - 22;
+			x = ObjPlayer.x - 19;
 			y = ObjPlayer.y -2;
-			depth = ObjPlayer.depth-1;
+			depth = ObjPlayer.depth+1;
 			
 		}
 		if ObjPlayer.facing = 90 //Down
 		{
 			x = ObjPlayer.x;
-			y = ObjPlayer.y + 12;
+			y = ObjPlayer.y + 8;
 			depth = ObjPlayer.depth-1;
 		}
 		if ObjPlayer.facing = 180 //Right
 		{
-			x = ObjPlayer.x + 22;
+			x = ObjPlayer.x + 19;
 			y = ObjPlayer.y -2;
-			depth = ObjPlayer.depth-1;
+			depth = ObjPlayer.depth+1;
 		}
 		if ObjPlayer.facing = 270 //Up
 		{
 			x = ObjPlayer.x;
-			y = ObjPlayer.y - 22;
+			y = ObjPlayer.y - 16;
 			depth = ObjPlayer.depth+1;
 		}
 		
