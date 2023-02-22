@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Level",
-    "path": "folders/Objects/Level.yy",
+    "name": "Level 1",
+    "path": "folders/Objects/Level/Level 1.yy",
   },
   "parentObjectId": {
     "name": "ObjGrabPar",

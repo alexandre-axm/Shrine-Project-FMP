@@ -9,5 +9,5 @@ draw_text(2800,160,global.defenceUp);
 //Show Enemy AI Grid
 if keyboard_check(vk_alt)
 {
-	//mp_grid_draw(global.mpGrid);
+	mp_grid_draw(global.mpGrid);
 };

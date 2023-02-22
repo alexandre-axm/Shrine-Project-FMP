@@ -5,7 +5,7 @@
 	keyUp = keyboard_check(ord("W")) || gamepad_button_check(0,gp_padu) || (gamepad_axis_value(0,gp_axislv) < 0);
 	keyDown = keyboard_check(ord("S")) || gamepad_button_check(0,gp_padd) || (gamepad_axis_value(0,gp_axislv) > 0);
 	//Action Input
-	keyGrab = keyboard_check(ord("J")) || gamepad_button_check(0,gp_face2);
+	keyGrab = keyboard_check(ord("U")) || gamepad_button_check(0,gp_face2);
 	keyMelee = keyboard_check(ord("I")) || gamepad_button_check(0,gp_face1);
 	keyRange = keyboard_check(ord("O")) || gamepad_button_check(0,gp_face3);
 
