@@ -3,6 +3,9 @@
   "resourceVersion": "1.0",
   "name": "ObjEnemy2",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
@@ -12,8 +15,8 @@
     "path": "folders/Objects/Entity/Enemy.yy",
   },
   "parentObjectId": {
-    "name": "ObjEnemy2Par",
-    "path": "objects/ObjEnemy2Par/ObjEnemy2Par.yy",
+    "name": "ObjEnemyPar",
+    "path": "objects/ObjEnemyPar/ObjEnemyPar.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

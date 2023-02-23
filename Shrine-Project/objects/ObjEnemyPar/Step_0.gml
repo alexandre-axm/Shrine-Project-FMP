@@ -1,3 +1,6 @@
+//Enemy State Machine
+script_execute(eState);
+
 //Enemy Health Check
 if eHealth <= 0
 	{

@@ -1,5 +1,7 @@
 event_inherited();
 
+state = states.WANDER;
+
 global.enemiesLeft += 1;
 eHealth = 2;
 cooldownE = false;

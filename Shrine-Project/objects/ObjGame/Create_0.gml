@@ -1,6 +1,7 @@
 enum states //Enemy States
 	{
 		IDLE,
+		WANDER,
 		MOVE,
 		ATTACK,
 		DEAD,

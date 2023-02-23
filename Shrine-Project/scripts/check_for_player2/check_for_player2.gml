@@ -23,7 +23,12 @@ function check_for_player2()
 	{
 		if _dis <= alertDis
 		{
+			alert = false;
 			path_end();
 		}
+	}
+		if distance_to_object(ObjPlayer) >= 350
+	{
+		path_end()
 	}
 };
