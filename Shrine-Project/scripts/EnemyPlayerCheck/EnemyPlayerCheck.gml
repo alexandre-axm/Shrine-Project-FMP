@@ -1,9 +1,18 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function EnemyPlayerCheck(){
-	var _dis = distance_to_object(ObjPlayer);
-	if ((_dis <= alertDis) || distance_to_object(ObjWall) <= 15 || alert) and _dis > attackDis
+	if (distance <= 350) && ((distance >= alertDis) || (distance <= attackDis)) //If distance higher than alert distance/ less than attack distance
 	{
+		//Move randomly
+		alert = false;
+		xTarget = x + irandom_range(-40, 40);
+		yTarget = y + irandom_range(-40, 40);
+	}
+	if (distance <= 350) && (distance <= alertDis) // (distance >= attackDis) //Check if distance is less than alert distance/ higher than attack distance
+	{
+		//Move towards player
 		alert = true;
+		xTarget = ObjPlayer.x;
+		yTarget = ObjPlayer.y;
 	}
 }

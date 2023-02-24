@@ -1,5 +1,5 @@
 event_inherited();
-eState = EnemyStateIdle;
+//eState = EnemyStateIdle;
 
 global.enemiesLeft += 1;
 eHealth = 2;

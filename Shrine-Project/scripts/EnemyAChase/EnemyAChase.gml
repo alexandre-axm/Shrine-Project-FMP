@@ -16,15 +16,11 @@ function EnemyAChase()
 		alert = false;
 		path_end();
 	}
-	if distance_to_object(ObjPlayer) <= alertDis
+	if distance_to_object(ObjPlayer) >= alertDis
 	{
 		alert = false;
 		path_end();
 		state = EnemyStateIdle;
-	}
-		if distance_to_object(ObjPlayer) >= 350
-	{
-		path_end();
 	}
 	}
 };

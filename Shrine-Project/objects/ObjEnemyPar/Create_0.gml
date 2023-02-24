@@ -7,6 +7,8 @@ kbSpeed = 0;
 kbMaxSpeed = 5;
 kbDec = 0.2;
 
+distance = 0;
+
 xTarget = xstart;
 yTarget = ystart;
 pathDir = 0;
