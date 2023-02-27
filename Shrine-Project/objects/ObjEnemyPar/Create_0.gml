@@ -1,6 +1,6 @@
 //Start In Idle State
 //state = states.IDLE
-eState = EnemyStateIdle;
+//eState = EnemyStateIdle;
 
 kbDir = 0;
 kbSpeed = 0;

@@ -1,0 +1,4 @@
+// You can write your code in this editor
+direction = point_direction(x,y,ObjPlayer.x,ObjPlayer.y)
+speed = 3;
+alarm_set(0,60);
