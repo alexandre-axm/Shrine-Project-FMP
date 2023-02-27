@@ -7,7 +7,7 @@ draw_text(2800,128,global.attackUp);
 draw_text(2800,160,global.defenceUp);
 
 //Show Enemy AI Grid
-if keyboard_check(vk_alt)
+if keyboard_check(vk_rshift)
 {
 	mp_grid_draw(global.mpGrid);
 };

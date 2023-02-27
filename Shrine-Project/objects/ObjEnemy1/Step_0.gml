@@ -20,7 +20,7 @@ if (distance <= attackDis) //Stop if distance less than attack distance
 	{
 	path_end();
 	}
-if !alert && distance_to_object(ObjWall) <= 15 //Stop object from movinging into wall
+if !alert && distance_to_object(ObjWall || ObjAiGuide) <= 25 //Stop object from movinging into wall
 	{
 	path_reverse(path);
 	}

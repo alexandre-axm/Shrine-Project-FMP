@@ -9,10 +9,7 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "parentObjectId": {
-    "name": "ObjGridPar",
-    "path": "objects/ObjGridPar/ObjGridPar.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
