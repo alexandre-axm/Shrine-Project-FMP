@@ -23,3 +23,28 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
 	}
+/*
+if hspeed > 0 // Moving Left
+{
+	image_index = sEWalkL;
+	image_speed = 1;
+}
+if hspeed < 0 //Moving Right
+{
+	image_index = sEWalkR;
+	image_speed = 1;
+}
+if vspeed > 0 //Moving Up
+{
+	image_index = sEWalkU;
+	image_speed = 1;
+}
+if vspeed < 0 //Moving Down
+{
+	image_index = sEWalkD;
+	image_speed = 1;
+}
+if (hspeed && vspeed) = 0
+	{
+		image_speed = 0;
+	}

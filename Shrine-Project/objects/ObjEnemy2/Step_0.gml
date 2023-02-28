@@ -24,3 +24,29 @@ if !alert && distance_to_object(ObjWall || ObjAiGuide) <= 25 //Stop object from 
 	{
 	path_reverse(path);
 	}
+
+//Sprite Control	
+if path_speed > 0 // Moving Left
+{
+	image_index = SprBiwaWalkL;
+	image_speed = 1;
+}
+if direction = 0 //Moving Right
+{
+	image_index = SprBiwaWalkR;
+	image_speed = 1;
+}
+if direction = 90 //Moving Up
+{
+	image_index = SprBiwaWalkU;
+	image_speed = 1;
+}
+if direction = 270 //Moving Down
+{
+	image_index = SprBiwaWalkD;
+	image_speed = 1;
+}
+//if (hspeed && vspeed) = 0
+	{
+		//image_speed = 0;
+	}

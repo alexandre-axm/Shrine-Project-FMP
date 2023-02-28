@@ -19,3 +19,9 @@ path = path_add();
 moveSpd = 2.5;
 pathDelay = 30;
 pathTimer = irandom(40);
+
+//Sprites
+sEWalkU = SprBiwaWalkU;
+sEWalkL = SprBiwaWalkL;
+sEWalkR = SprBiwaWalkR;
+sEWalkD = SprBiwaWalkD;

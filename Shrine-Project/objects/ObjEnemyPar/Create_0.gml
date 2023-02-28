@@ -25,3 +25,9 @@ enemyScript[states.WANDER] = -1;
 enemyScript[states.MOVE] = -1;
 enemyScript[states.ATTACK] = -1;
 enemyScript[states.DEAD] = -1;
+
+//Sprites
+sEWalkU = 0;
+sEWalkL = 0;
+sEWalkR = 0;
+sEWalkD = 0;
