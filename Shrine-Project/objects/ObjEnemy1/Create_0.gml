@@ -19,8 +19,8 @@ moveSpd = 1.5;
 pathDelay = 30;
 pathTimer = irandom(60);
 
-/*Sprites
-sEnemyIdle =
-sEnemyMove =
-sEnemyAttack =
-sEnemyDeath =
+//Sprites
+sEWalkU = SprBakenekoWalkU;
+sEWalkL = SprBakenekoWalkL;
+sEWalkR = SprBakenekoWalkR;
+sEWalkD = SprBakenekoWalkD;

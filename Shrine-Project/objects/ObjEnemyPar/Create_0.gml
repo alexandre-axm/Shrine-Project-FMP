@@ -21,7 +21,6 @@ drop = 0
 
 //State Scripts
 enemyScript[states.IDLE] = -1;
-enemyScript[states.WANDER] = -1;
 enemyScript[states.MOVE] = -1;
 enemyScript[states.ATTACK] = -1;
 enemyScript[states.DEAD] = -1;
@@ -31,3 +30,5 @@ sEWalkU = 0;
 sEWalkL = 0;
 sEWalkR = 0;
 sEWalkD = 0;
+
+facing = 0;

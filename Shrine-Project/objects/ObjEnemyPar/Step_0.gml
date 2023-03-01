@@ -23,28 +23,34 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
 	}
-/*
-if hspeed > 0 // Moving Left
+	
+//Sprite Control
+xStart = path_get_x(path, 0);
+xEnd = path_get_x(path, 0.2);
+yStart = path_get_y(path, 0);
+yEnd = path_get_y(path, 0.2);
+
+if (xStart - xEnd) > (yStart - yEnd)
 {
-	image_index = sEWalkL;
-	image_speed = 1;
-}
-if hspeed < 0 //Moving Right
-{
-	image_index = sEWalkR;
-	image_speed = 1;
-}
-if vspeed > 0 //Moving Up
-{
-	image_index = sEWalkU;
-	image_speed = 1;
-}
-if vspeed < 0 //Moving Down
-{
-	image_index = sEWalkD;
-	image_speed = 1;
-}
-if (hspeed && vspeed) = 0
+	if (xStart > xEnd) //Move Left
 	{
-		image_speed = 0;
+		facing = 1;
 	}
+	if (xStart < xEnd) //Move Right
+	{
+		facing = 2;
+	}
+}
+if (xStart - xEnd) < (yStart - yEnd)
+{
+	if (yStart > yEnd) //Move Up
+	{
+		facing = 3;
+	}
+	if (yStart < yEnd) //Move Down
+	{
+		facing = 4;
+	}
+}
+
+EnemySpriteControl();

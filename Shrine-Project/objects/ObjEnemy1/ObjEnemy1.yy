@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprEnemy",
-    "path": "sprites/SprEnemy/SprEnemy.yy",
+    "name": "SprBakenekoWalkD",
+    "path": "sprites/SprBakenekoWalkD/SprBakenekoWalkD.yy",
   },
   "spriteMaskId": null,
   "visible": true,

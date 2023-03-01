@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprEnemy2",
-    "path": "sprites/SprEnemy2/SprEnemy2.yy",
+    "name": "SprBiwaWalkD",
+    "path": "sprites/SprBiwaWalkD/SprBiwaWalkD.yy",
   },
   "spriteMaskId": null,
   "visible": true,
