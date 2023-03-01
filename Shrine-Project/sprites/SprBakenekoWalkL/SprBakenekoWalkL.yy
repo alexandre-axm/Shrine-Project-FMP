@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Bakeneko",
-    "path": "folders/Sprites/Enemies/Bakeneko.yy",
+    "name": "Walk",
+    "path": "folders/Sprites/Enemies/Bakeneko/Walk.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

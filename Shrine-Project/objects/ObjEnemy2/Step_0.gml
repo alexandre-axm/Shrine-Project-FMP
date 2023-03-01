@@ -16,7 +16,7 @@ if pathTimer -- <= 0 //Counts path timer down until 0
 		path_start(_path, moveSpd, path_action_stop, false);
 	}
 }
-if (distance <= attackDis) //Stop if distance less than attack distance
+if (distance <= attackDis) || (lifted) || (thrown) //Stop if distance less than attack distance
 	{
 	path_end();
 	}

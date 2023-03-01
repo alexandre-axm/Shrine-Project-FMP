@@ -17,11 +17,15 @@ if pathTimer -- <= 0 //Counts path timer down until 0
 		path_start(_path, moveSpd, path_action_stop, false);
 	}
 }
-if (distance <= attackDis) && !cooldownEP //Stop if distance less than attack distance
+if (distance <= attackDis) && !cooldownEP && !lifted && !thrown //Stop if distance less than attack distance
 	{
 	cooldownEP = true;
 	alarm_set(1,60);
 	instance_create_layer(x - 16, y, "Instances", ObjEFireball)
+	path_end();
+	}
+if (lifted) || (thrown) //Stop if distance less than attack distance
+	{
 	path_end();
 	}
 if !alert && distance_to_object(ObjWall || ObjAiGuide) <= 25 //Stop object from movinging into wall

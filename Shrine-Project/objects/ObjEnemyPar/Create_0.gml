@@ -32,3 +32,13 @@ sEWalkR = 0;
 sEWalkD = 0;
 
 facing = 0;
+attacking = false
+hurt = false;
+
+//Grab & Throw
+canLift = false;
+lifted = false;
+thrown = false;
+z = 0;
+destructable = false;
+entityThrowDis = 128;

@@ -16,7 +16,13 @@ if pathTimer -- <= 0 //Counts path timer down until 0
 		path_start(_path, moveSpd, path_action_stop, false);
 	}
 }
-if (distance <= attackDis) //Stop if distance less than attack distance
+if (distance <= attackDis) //Stop if distance less than attack distance, start attacking
+	{
+	path_end();
+	attacking = true;
+	alarm_set(1,30);
+	}
+if (lifted) || (thrown) //Stop if being held or thrown
 	{
 	path_end();
 	}
@@ -24,3 +30,19 @@ if !alert && distance_to_object(ObjWall || ObjAiGuide) <= 25 //Stop object from 
 	{
 	path_reverse(path);
 	}
+	
+//Sprites
+if attacking
+{
+	sEWalkU = SPrBakenekoAtkU;
+	sEWalkL = SprBakenekoAtkL;
+	sEWalkR = SprBakenekoAtkR;
+	sEWalkD = SprBakenekoAtkD;
+}
+if !attacking
+{
+	sEWalkU = SprBakenekoWalkU;
+	sEWalkL = SprBakenekoWalkL;
+	sEWalkR = SprBakenekoWalkR;
+	sEWalkD = SprBakenekoWalkD;
+}

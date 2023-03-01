@@ -1,5 +1,5 @@
 // Damage Player
-if !global.defenceUp && !global.cooldownH && !cooldownE
+if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
 		global.playerHealth -= 1;
 		global.cooldownH = true;
@@ -13,7 +13,7 @@ if !global.defenceUp && !global.cooldownH && !cooldownE
 			}
 		path_end();
 	}
-if global.defenceUp && !global.cooldownH && !cooldownE
+if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
 		global.playerHealth -= 0.5;
 		global.cooldownH = true;

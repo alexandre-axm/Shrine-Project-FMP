@@ -26,4 +26,9 @@ function EnemySpriteControl()
 		//image_index = 0;
 		image_speed = 1;
 	}
+	if attacking
+		{
+			//image_index = 0;
+			image_speed = 3;
+		}
 	}

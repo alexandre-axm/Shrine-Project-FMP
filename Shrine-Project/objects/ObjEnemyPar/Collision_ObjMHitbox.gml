@@ -2,6 +2,7 @@ if !global.attackUp && !cooldownE //Standard Damage Value
 	{	
 		eHealth -= 1;
 		cooldownE = true;
+		hurt = true;
 		alarm_set(0,15);
 		if place_free(x,y)
 		{
@@ -14,6 +15,7 @@ if global.attackUp && !cooldownE //Increased Damage Value
 	{
 		eHealth -= 2;
 		cooldownE = true;
+		hurt = true;
 		alarm_set(0,15);
 		if place_free(x,y)
 		{
