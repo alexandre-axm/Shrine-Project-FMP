@@ -1,4 +1,9 @@
-// You can write your code in this editor
-//global.enemiesLeft += 1;
-eHealth = 2;
+event_inherited();
+
+eHealth = 15;
 cooldownE = false;
+path = path_add();
+
+//Run State Machine
+state = OnryoStateCircle;
+script_execute(state);

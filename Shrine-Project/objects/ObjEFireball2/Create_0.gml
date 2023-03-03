@@ -1,4 +1,3 @@
 // You can write your code in this editor
-
-cooldownE = false;
-hurt = false;
+speed = 3;
+alarm_set(0,60);
