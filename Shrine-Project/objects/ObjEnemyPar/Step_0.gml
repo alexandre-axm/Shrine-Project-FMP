@@ -15,8 +15,8 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 	{
 		eHealth -= 1;
 		cooldownE = true;
+		hurt = true;
 		alarm_set(0,30);
-		instance_destroy(global.thrown);
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
 	}

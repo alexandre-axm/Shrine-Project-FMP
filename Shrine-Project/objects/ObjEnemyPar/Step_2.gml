@@ -47,6 +47,7 @@ if (!lifted)
 						if (destructable) instance_destroy();
 						eHealth -= 1;
 						cooldownE = true;
+						hurt = true;
 						alarm_set(0,15);
 					}
 				
@@ -54,12 +55,8 @@ if (!lifted)
 				z = throwPeakH * sin(throwPercent * pi);
 				if (throwDis == throwDisTravelled)
 					{
-						thrown = false;
-						if (destructable) 
-						{
-							global.thrown = noone;
-							instance_destroy();
-						}
+						thrown = false; 
+						global.thrown = noone;
 					}
 			}
 			else
@@ -68,10 +65,9 @@ if (!lifted)
 				{
 					z = max(z - grav, 0)
 					grav += 0.1;
-					if (z == 0) && (destructable) 
+					if (z == 0) 
 					{
 						global.thrown = noone;
-						instance_destroy();
 					}
 				}
 				else

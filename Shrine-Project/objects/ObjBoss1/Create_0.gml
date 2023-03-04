@@ -6,4 +6,4 @@ path = path_add();
 
 //Run State Machine
 state = OnryoStateCircle;
-script_execute(state);
+//script_execute(state);
