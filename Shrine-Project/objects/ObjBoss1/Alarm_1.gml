@@ -1,17 +1,11 @@
-// You can write your code in this editor
+/// @description Circle - Figure 8
 
-if state = OnryoStateCircle
+if path = path_start(pthOnryoCircle, 2, path_action_continue, false)
 {
-	state = OnryoStateFigure8;
-	//script_execute(state);
-	path_start(pthOnryoFigure8, 2, path_action_stop, false);
+	path = path_start(pthOnryoFigure8, 2, path_action_continue, false);
+	alarm_set(4,300);
 }
-if state = OnryoStateFigure8
-{
-	state = OnryoStateMelee;
-	script_execute(state);
-	path_start(pthOnryoCircle, 2, path_action_stop, false);
-}
+/*
 if state = OnryoStateMelee
 {
 	state = OnryoStateReset;

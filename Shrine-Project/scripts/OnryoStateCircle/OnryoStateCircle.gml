@@ -2,5 +2,11 @@
 function OnryoStateCircle()
 {
 	path_start(pthOnryoCircle, 2, path_action_stop, false);
-	alarm_set(1,300);
+	
+	//if path_endaction = path_action_stop
+	{
+		//path_end();
+		//state = OnryoStateFigure8;
+		//script_execute(state);
+	}
 }

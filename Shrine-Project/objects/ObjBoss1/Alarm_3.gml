@@ -1,4 +1,4 @@
-//Projectiles (x Pattern)
+///@description Projectiles (x Pattern)
 if state = OnryoStateRange
 {
 	instance_create_layer(x, y, "Instances", ObjEFireball2, {direction : 45});

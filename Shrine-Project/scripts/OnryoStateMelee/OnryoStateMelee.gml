@@ -3,5 +3,4 @@
 function OnryoStateMelee()
 {
 	move_towards_point(ObjPlayer.x, ObjPlayer.y, 4);
-	alarm_set(1,90);
 }
