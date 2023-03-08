@@ -1,3 +1,3 @@
 // You can write your code in this editor
 
-room_goto(TestLevel);
+room_goto(Level1);

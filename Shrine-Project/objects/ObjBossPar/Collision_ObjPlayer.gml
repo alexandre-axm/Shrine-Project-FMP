@@ -11,7 +11,8 @@ if !global.defenceUp && !global.cooldownH && !cooldownE
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
-		path_end();
+		//path_end();
+		//path_reverse(path);
 	}
 if global.defenceUp && !global.cooldownH && !cooldownE
 	{
@@ -25,5 +26,6 @@ if global.defenceUp && !global.cooldownH && !cooldownE
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
-		path_end();
+		//path_end();
+		//path_reverse(path);
 	}

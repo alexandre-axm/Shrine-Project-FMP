@@ -99,6 +99,7 @@
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"LevelClear","path":"rooms/LevelClear/LevelClear.yy",},},
     {"id":{"name":"EnemyPlayerCheck3","path":"scripts/EnemyPlayerCheck3/EnemyPlayerCheck3.yy",},},
+    {"id":{"name":"ObjBossStart","path":"objects/ObjBossStart/ObjBossStart.yy",},},
     {"id":{"name":"SprTestLevel","path":"sprites/SprTestLevel/SprTestLevel.yy",},},
     {"id":{"name":"ObjResetPoint","path":"objects/ObjResetPoint/ObjResetPoint.yy",},},
     {"id":{"name":"ObjBoss1","path":"objects/ObjBoss1/ObjBoss1.yy",},},
@@ -180,6 +181,7 @@
     {"id":{"name":"ObjENekomata","path":"objects/ObjENekomata/ObjENekomata.yy",},},
     {"id":{"name":"SprThrowD","path":"sprites/SprThrowD/SprThrowD.yy",},},
     {"id":{"name":"EnemyPlayerCheck2","path":"scripts/EnemyPlayerCheck2/EnemyPlayerCheck2.yy",},},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"ObjEnemy2","path":"objects/ObjEnemy2/ObjEnemy2.yy",},},
     {"id":{"name":"PlayerStateThrow","path":"scripts/PlayerStateThrow/PlayerStateThrow.yy",},},
     {"id":{"name":"SprRAttackD","path":"sprites/SprRAttackD/SprRAttackD.yy",},},
@@ -201,6 +203,7 @@
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"LevelClear","path":"rooms/LevelClear/LevelClear.yy",},},
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

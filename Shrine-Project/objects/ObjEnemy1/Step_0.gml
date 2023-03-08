@@ -22,7 +22,7 @@ if (distance <= attackDis) //Stop if distance less than attack distance, start a
 	attacking = true;
 	alarm_set(1,30);
 	}
-if (lifted) || (thrown) //Stop if being held or thrown
+if (lifted) || (thrown) || (global.thrown = self) //Stop if being held or thrown
 	{
 	path_end();
 	}
@@ -32,7 +32,7 @@ if !alert && distance_to_object(ObjWall || ObjAiGuide) <= 25 //Stop object from 
 	}
 	
 //Sprites
-if attacking
+if attacking && global.lifted != self && global.thrown != self
 {
 	sEWalkU = SPrBakenekoAtkU;
 	sEWalkL = SprBakenekoAtkL;

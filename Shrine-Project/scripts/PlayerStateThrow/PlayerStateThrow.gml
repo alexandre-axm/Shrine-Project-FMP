@@ -44,6 +44,6 @@ function PlayerStateThrow(){
 	solid = false;
 	alarm_set(0,30);
 	alarm_set(5,18);
-	alarm_set(6,6);
+	alarm_set(6,8);
 	state = PlayerStateFree
 }

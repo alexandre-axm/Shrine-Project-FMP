@@ -10,6 +10,7 @@ if !global.attackUp && !cooldownE //Standard Damage Value
 			kbSpeed = kbMaxSpeed;
 		}
 		//path_end();
+		//path_reverse(path);
 	};
 if global.attackUp && !cooldownE //Increased Damage Value
 	{
@@ -23,4 +24,5 @@ if global.attackUp && !cooldownE //Increased Damage Value
 			kbSpeed = kbMaxSpeed;
 		}
 		//path_end();
+		//path_reverse(path);
 	};

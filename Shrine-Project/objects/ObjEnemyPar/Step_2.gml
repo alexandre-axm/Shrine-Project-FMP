@@ -49,6 +49,8 @@ if (!lifted)
 						cooldownE = true;
 						hurt = true;
 						alarm_set(0,15);
+						kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
+						kbSpeed = kbMaxSpeed;
 					}
 				
 				throwPercent = throwStartPercent + lerp(0, 1 - throwStartPercent, throwDisTravelled / throwDis);

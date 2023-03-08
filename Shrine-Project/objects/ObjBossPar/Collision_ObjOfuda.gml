@@ -11,6 +11,7 @@ if !global.attackUp && !cooldownE //Standard Attack Value
 			kbSpeed = kbMaxSpeed;
 		}
 		//path_end();
+		//path_reverse(path);
 	}
 if global.attackUp && !cooldownE //Increased Attack Value
 	{
@@ -25,4 +26,5 @@ if global.attackUp && !cooldownE //Increased Attack Value
 			kbSpeed = kbMaxSpeed;
 		}
 		//path_end();
+		//path_reverse(path);
 	}
