@@ -1,4 +1,4 @@
-// You can write your code in this editor
+//Camera Pan
 
 var cameraPanSpeed = 8;
 
