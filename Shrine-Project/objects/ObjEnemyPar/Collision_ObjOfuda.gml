@@ -3,7 +3,7 @@ if !global.attackUp && !cooldownE //Standard Attack Value
 		eHealth -= 1;
 		cooldownE = true;
 		hurt = true;
-		alarm_set(0,30);
+		alarm_set(0,15);
 		instance_destroy(other);
 		if place_free(x,y)
 		{
@@ -17,7 +17,7 @@ if global.attackUp && !cooldownE //Increased Attack Value
 		eHealth -= 2;
 		cooldownE = true;
 		hurt = true;
-		alarm_set(0,30);
+		alarm_set(0,15);
 		instance_destroy(other);
 		if place_free(x,y)
 		{

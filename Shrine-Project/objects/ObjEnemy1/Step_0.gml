@@ -20,7 +20,7 @@ if (distance <= attackDis) //Stop if distance less than attack distance, start a
 	{
 	path_end();
 	attacking = true;
-	alarm_set(1,30);
+	alarm_set(1,15);
 	}
 if (lifted) || (thrown) || (global.thrown = self) //Stop if being held or thrown
 	{

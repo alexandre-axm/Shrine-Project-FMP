@@ -65,6 +65,7 @@
     {"name":"SprRAttackL","order":1,"path":"sprites/SprRAttackL/SprRAttackL.yy",},
     {"name":"ObjEnemyPar","order":4,"path":"objects/ObjEnemyPar/ObjEnemyPar.yy",},
     {"name":"ObjOniWall","order":4,"path":"objects/ObjOniWall/ObjOniWall.yy",},
+    {"name":"ObjBarrierPar","order":10,"path":"objects/ObjBarrierPar/ObjBarrierPar.yy",},
     {"name":"MainMenu","order":2,"path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"SprMAttackR","order":2,"path":"sprites/SprMAttackR/SprMAttackR.yy",},
     {"name":"SprKey","order":3,"path":"sprites/SprKey/SprKey.yy",},

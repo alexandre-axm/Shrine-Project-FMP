@@ -9,6 +9,7 @@ if !global.attackUp && !cooldownE //Standard Damage Value
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
+		CameraShake();
 		//path_end();
 		//path_reverse(path);
 	};
@@ -23,6 +24,7 @@ if global.attackUp && !cooldownE //Increased Damage Value
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
+		CameraShake();
 		//path_end();
 		//path_reverse(path);
 	};

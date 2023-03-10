@@ -86,6 +86,7 @@
     {"id":{"name":"SprRAttackL","path":"sprites/SprRAttackL/SprRAttackL.yy",},},
     {"id":{"name":"ObjEnemyPar","path":"objects/ObjEnemyPar/ObjEnemyPar.yy",},},
     {"id":{"name":"ObjOniWall","path":"objects/ObjOniWall/ObjOniWall.yy",},},
+    {"id":{"name":"ObjBarrierPar","path":"objects/ObjBarrierPar/ObjBarrierPar.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"SprMAttackR","path":"sprites/SprMAttackR/SprMAttackR.yy",},},
     {"id":{"name":"TsLvl1","path":"tilesets/TsLvl1/TsLvl1.yy",},},

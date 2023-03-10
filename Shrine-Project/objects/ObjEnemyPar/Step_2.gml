@@ -40,7 +40,7 @@ if (!lifted)
 				throwDisTravelled = min(throwDisTravelled + 4, throwDis);
 				x = xstart + lengthdir_x(throwDisTravelled, direction);
 				y = ystart + lengthdir_y(throwDisTravelled, direction);
-				if !place_free(x,y)
+				if !place_free(x,y) || collision_rectangle(x-12,y-12,x+12,y+12,ObjBarrierPar,false,true) || collision_rectangle(x-12,y-12,x+12,y+12,ObjDoor,false,true)
 					{
 						thrown = false;
 						grav = 0.2;

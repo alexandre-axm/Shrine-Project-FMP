@@ -1,7 +1,7 @@
 // Damage Player
 if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
-		global.playerHealth -= 1;
+		//global.playerHealth -= 1;
 		global.cooldownH = true;
 		cooldownE = true;
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
@@ -17,7 +17,7 @@ if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	}
 if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
-		global.playerHealth -= 0.5;
+		//global.playerHealth -= 0.5;
 		global.cooldownH = true;
 		cooldownE = true;
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;

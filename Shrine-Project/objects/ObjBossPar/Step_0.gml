@@ -2,7 +2,6 @@
 if eHealth <= 0
 	{
 		instance_destroy(self)
-		global.enemiesLeft -= 1
 	}
 if (kbSpeed > 0) && place_free(x,y)
 	{

@@ -12,7 +12,10 @@
     "name": "Level 1",
     "path": "folders/Objects/Level/Level 1.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ObjBarrierPar",
+    "path": "objects/ObjBarrierPar/ObjBarrierPar.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

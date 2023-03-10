@@ -1,21 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjBarrier",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "ObjBarrierPar",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Level 1",
     "path": "folders/Objects/Level/Level 1.yy",
   },
-  "parentObjectId": {
-    "name": "ObjBarrierPar",
-    "path": "objects/ObjBarrierPar/ObjBarrierPar.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SprBarrier",
-    "path": "sprites/SprBarrier/SprBarrier.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
