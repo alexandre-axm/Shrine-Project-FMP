@@ -21,7 +21,7 @@ pathDelay = 30;
 pathTimer = irandom(60);
 
 //Sprites
-sEWalkU = SprBakenekoWalkU;
-sEWalkL = SprBakenekoWalkL;
-sEWalkR = SprBakenekoWalkR;
-sEWalkD = SprBakenekoWalkD;
+sEWalkU = SprNekomataU;
+sEWalkL = SprNekomataL;
+sEWalkR = SprNekomataR;
+sEWalkD = SprNekomataD;
