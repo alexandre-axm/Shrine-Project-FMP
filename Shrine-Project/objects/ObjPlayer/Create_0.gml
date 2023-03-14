@@ -46,6 +46,7 @@ sThrowD = SprThrowD;
 
 //Consumables
 global.playerHealth = 10;
+global.playerHealthMax = 10;
 global.stockR = 20;
 global.keysHeld = 0;
 

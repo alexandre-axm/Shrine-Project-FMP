@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprENekomata",
-    "path": "sprites/SprENekomata/SprENekomata.yy",
+    "name": "SprNekomataD",
+    "path": "sprites/SprNekomataD/SprNekomataD.yy",
   },
   "spriteMaskId": null,
   "visible": true,
