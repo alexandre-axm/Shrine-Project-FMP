@@ -19,6 +19,7 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 		alarm_set(0,30);
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
+		path_end();
 	}
 	
 //Sprite Control

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Level 1",
-    "path": "folders/Objects/Level/Level 1.yy",
+    "name": "Walls",
+    "path": "folders/Objects/Level/Level 1/Walls.yy",
   },
   "parentObjectId": {
     "name": "ObjGridPar",

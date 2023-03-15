@@ -12,7 +12,7 @@ if facing = 0 //Melee Attack Left
 		} 
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement
-		alarm_set(0,30);
+		alarm_set(0,25);
 		alarm_set(5,18);
  }
  
@@ -28,7 +28,7 @@ if facing = 180 //Melee Attack Right
 		}
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement
-		alarm_set(0,30);
+		alarm_set(0,25);
 		alarm_set(5,18);
  }
  

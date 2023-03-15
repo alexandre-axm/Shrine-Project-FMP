@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Level 1",
-    "path": "folders/Objects/Level/Level 1.yy",
+    "name": "Barriers",
+    "path": "folders/Objects/Level/Level 1/Barriers.yy",
   },
   "parentObjectId": {
     "name": "ObjBarrierPar",

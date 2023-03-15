@@ -7,13 +7,13 @@ if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = (kbMaxSpeed/2);
 		alarm_set(0,30);
+		path_end();
 		with ObjPlayer
 			{
 				alarm_set(4,10);
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
-		path_end();
 	}
 if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
@@ -23,11 +23,11 @@ if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = (kbMaxSpeed/2);
 		alarm_set(0,30);
+		path_end();
 		with ObjPlayer
 			{
 				alarm_set(4,10);
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
-		path_end();
 	}

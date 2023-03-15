@@ -4,12 +4,12 @@ if !global.attackUp && !cooldownE //Standard Damage Value
 		cooldownE = true;
 		hurt = true;
 		alarm_set(0,30);
+		path_end();
 		if place_free(x,y)
 		{
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
-		path_end();
 	};
 if global.attackUp && !cooldownE //Increased Damage Value
 	{
@@ -17,10 +17,10 @@ if global.attackUp && !cooldownE //Increased Damage Value
 		cooldownE = true;
 		hurt = true;
 		alarm_set(0,30);
+		path_end();
 		if place_free(x,y)
 		{
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
-		path_end();
 	};

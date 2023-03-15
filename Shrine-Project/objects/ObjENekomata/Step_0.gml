@@ -3,7 +3,7 @@ event_inherited();
 
 //Check Player Distance
 distance = distance_to_object(ObjPlayer);
-EnemyPlayerCheck();
+EnemyPlayerCheck3();
 
 //Start Path
 if pathTimer -- <= 0 //Counts path timer down until 0

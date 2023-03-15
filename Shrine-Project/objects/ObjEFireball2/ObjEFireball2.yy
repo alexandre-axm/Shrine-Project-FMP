@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprEFireball",
-    "path": "sprites/SprEFireball/SprEFireball.yy",
+    "name": "SprEFireball2",
+    "path": "sprites/SprEFireball2/SprEFireball2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
