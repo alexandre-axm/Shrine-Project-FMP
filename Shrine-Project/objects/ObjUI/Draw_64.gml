@@ -13,7 +13,7 @@ for (var i = 1; i <= _playerHealthMax; i ++)
 				_imageIndex += (_playerHealthFrac > 0);
 				_imageIndex += (_playerHealthFrac > 0.5);
 			}
-		draw_sprite(SprHeart, _imageIndex, 24 + ((i-1) * 36), 24);
+		draw_sprite(heart, _imageIndex, 24 + ((i-1) * 36), 24);
 	}
 
 //Draw Ofuda
