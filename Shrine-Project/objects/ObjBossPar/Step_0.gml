@@ -14,10 +14,15 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 	{
 		eHealth -= 1;
 		cooldownE = true;
+		hurt = true;
 		alarm_set(0,30);
 		instance_destroy(global.thrown);
+		if place_free(x,y)
+		{
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = kbMaxSpeed;
+		}
+		CameraShake();
 	}
 	
 /*Sprite Control

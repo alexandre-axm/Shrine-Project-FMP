@@ -7,3 +7,4 @@ event_inherited();
 destructable = true;
 entityThrowDis = 96;
 drop = 0;
+breaking = false;
