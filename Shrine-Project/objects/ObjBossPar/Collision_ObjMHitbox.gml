@@ -12,6 +12,7 @@ if !global.attackUp && !cooldownE //Standard Damage Value
 		CameraShake();
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndBossHurt,1,false);
 	};
 if global.attackUp && !cooldownE //Increased Damage Value
 	{
@@ -27,4 +28,5 @@ if global.attackUp && !cooldownE //Increased Damage Value
 		CameraShake();
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndBossHurt,1,false);
 	};

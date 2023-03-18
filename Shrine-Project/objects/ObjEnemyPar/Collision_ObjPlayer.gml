@@ -14,6 +14,7 @@ if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
+			audio_play_sound(SndHurt,2,false);
 	}
 if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
@@ -30,4 +31,5 @@ if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 				kbSpeed = kbMaxSpeed;
 			}
+			audio_play_sound(SndHurt,2,false);
 	}

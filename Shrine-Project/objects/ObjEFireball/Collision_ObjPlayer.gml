@@ -10,6 +10,7 @@ if !global.defenceUp && !global.cooldownH
 				kbSpeed = kbMaxSpeed;
 			}
 		instance_destroy(self);
+		audio_play_sound(SndHurt,2,false);
 	}
 if global.defenceUp && !global.cooldownH
 	{
@@ -22,4 +23,5 @@ if global.defenceUp && !global.cooldownH
 				kbSpeed = kbMaxSpeed;
 			}
 		instance_destroy(self);
+		audio_play_sound(SndHurt,2,false);
 	}

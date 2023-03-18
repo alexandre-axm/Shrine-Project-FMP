@@ -23,6 +23,7 @@ if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldow
 		kbSpeed = kbMaxSpeed;
 		}
 		CameraShake();
+		audio_play_sound(SndBossHurt,1,false);
 	}
 	
 /*Sprite Control

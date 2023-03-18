@@ -11,6 +11,7 @@ if !global.attackUp && !cooldownE //Standard Attack Value
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
+		audio_play_sound(SndHurt,2,false);
 	}
 if global.attackUp && !cooldownE //Increased Attack Value
 	{
@@ -25,4 +26,5 @@ if global.attackUp && !cooldownE //Increased Attack Value
 			kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 			kbSpeed = kbMaxSpeed;
 		}
+		audio_play_sound(SndHurt,2,false);
 	}

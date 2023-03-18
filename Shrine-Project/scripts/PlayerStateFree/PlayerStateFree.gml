@@ -41,20 +41,24 @@ if vSpeed < 0 && (!cooldownM && !cooldownR) //Face Up
 if ((keyMelee) && !cooldownM && !holding) //Melee Attack
 	{
 		state = PlayerStateMelee;
+		audio_play_sound(SndMeleeAttack,1,false);
 	}
 if ((keyRange) && !cooldownR && !holding && global.stockR > 0) //Ranged Attack
 	{
 		state = PlayerStateRange;
+		audio_play_sound(SndRangeAttack,1,false);
 	}
 if keyGrab //Grab Throw
 	{
 		if !holding && !cooldownM
 			{
 				state = PlayerStateGrab;
+				audio_play_sound(SndGrabThrow,1,false);
 			}
 		if holding && !cooldownM
 			{
 				state = PlayerStateThrow;
+				audio_play_sound(SndGrabThrow,1,false);
 			}
 	}
 if global.playerHealth <= 0 //Game Over

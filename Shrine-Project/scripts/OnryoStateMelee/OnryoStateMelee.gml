@@ -3,4 +3,5 @@
 function OnryoStateMelee()
 {
 	move_towards_point(ObjPlayer.x, ObjPlayer.y, 4);
+	audio_play_sound(SndBossAttack,1,false);
 }

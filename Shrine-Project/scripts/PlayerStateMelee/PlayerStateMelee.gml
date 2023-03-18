@@ -55,7 +55,7 @@ if facing = 90 //Melee Attack Down
 		cooldownM = true; //Attack cooldown
 		stopMove= true; // Briefly Stops Movement
 		alarm_set(0,30);
-		alarm_set(5,18);		
+		alarm_set(5,18);
  }
 state = PlayerStateFree;
 };

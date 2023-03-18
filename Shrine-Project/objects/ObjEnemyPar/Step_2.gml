@@ -52,6 +52,7 @@ if (!lifted)
 						kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 						kbSpeed = kbMaxSpeed;
 						CameraShake();
+						audio_play_sound(SndHurt,1,false);
 					}
 				
 				throwPercent = throwStartPercent + lerp(0, 1 - throwStartPercent, throwDisTravelled / throwDis);

@@ -13,6 +13,7 @@ if !global.defenceUp && !global.cooldownH && !cooldownE
 			}
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndHurt,2,false);
 	}
 if global.defenceUp && !global.cooldownH && !cooldownE
 	{
@@ -28,4 +29,5 @@ if global.defenceUp && !global.cooldownH && !cooldownE
 			}
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndHurt,2,false);
 	}

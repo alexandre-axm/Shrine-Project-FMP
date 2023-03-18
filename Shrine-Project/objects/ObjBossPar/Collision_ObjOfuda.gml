@@ -13,6 +13,7 @@ if !global.attackUp && !cooldownE //Standard Attack Value
 		CameraShake();
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndBossHurt,1,false);
 	}
 if global.attackUp && !cooldownE //Increased Attack Value
 	{
@@ -29,4 +30,5 @@ if global.attackUp && !cooldownE //Increased Attack Value
 		CameraShake();
 		//path_end();
 		//path_reverse(path);
+		audio_play_sound(SndBossHurt,1,false);
 	}
