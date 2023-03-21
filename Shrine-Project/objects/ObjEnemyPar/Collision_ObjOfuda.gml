@@ -3,6 +3,7 @@ if !global.attackUp && !cooldownE //Standard Attack Value
 		eHealth -= 1;
 		cooldownE = true;
 		hurt = true;
+		disguiseOn = false;
 		alarm_set(0,15);
 		instance_destroy(other);
 		path_end();
@@ -18,6 +19,7 @@ if global.attackUp && !cooldownE //Increased Attack Value
 		eHealth -= 2;
 		cooldownE = true;
 		hurt = true;
+		disguiseOn = false;
 		alarm_set(0,15);
 		instance_destroy(other);
 		path_end();

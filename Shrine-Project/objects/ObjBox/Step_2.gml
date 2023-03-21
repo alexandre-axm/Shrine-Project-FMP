@@ -9,6 +9,6 @@ if breaking = true
 		sprite_index = SprBoxBreak;
 		image_speed = 1;
 		solid = false;
-		audio_play_sound(SndBoxBreak,1,false);
+		//audio_play_sound(SndBoxBreak,1,false);
 		//alarm_set(0,15);
 	}

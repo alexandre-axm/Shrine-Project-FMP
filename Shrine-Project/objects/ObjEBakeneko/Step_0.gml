@@ -20,6 +20,7 @@ if (distance <= attackDis) //Stop if distance less than attack distance, start a
 	{
 	path_end();
 	attacking = true;
+	disguiseOn = false;
 	alarm_set(1,15);
 	}
 if (lifted) || (thrown) || (global.thrown = self) //Stop if being held or thrown
@@ -39,7 +40,7 @@ if attacking && global.lifted != self && global.thrown != self
 	sEWalkR = SprBakenekoAtkR;
 	sEWalkD = SprBakenekoAtkD;
 }
-if !attacking
+if !attacking && !disguiseOn
 {
 	sEWalkU = SprBakenekoWalkU;
 	sEWalkL = SprBakenekoWalkL;

@@ -4,7 +4,7 @@
 
 kbDir = 0;
 kbSpeed = 0;
-kbMaxSpeed = 5;
+kbMaxSpeed = 6;
 kbDec = 0.2;
 
 distance = 0;
@@ -26,7 +26,6 @@ attacking = false
 hurt = false;
 
 //Grab & Throw
-canLift = false;
 lifted = false;
 thrown = false;
 z = 0;

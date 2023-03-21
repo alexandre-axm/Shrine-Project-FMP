@@ -15,10 +15,6 @@ if place_free(x, y + vSpeed) && !stopMove
 		y += vSpeed
 		image_speed = 0;
 	}
-if !place_free(x,y)
-	{
-		audio_play_sound(SndWallCollide,1,false);
-	}
 
 //Sprite Direction
 if hSpeed > 0 && (!cooldownM && !cooldownR) //Face Right
