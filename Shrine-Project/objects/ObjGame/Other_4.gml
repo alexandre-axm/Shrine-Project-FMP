@@ -15,3 +15,6 @@ mp_grid_add_instances(global.mpGrid, ObjAiGuide, true);
 
 //Refresh Grid
 alarm_set(0,30);
+
+//Background Music
+audio_play_sound(SndBGM1,3,true);

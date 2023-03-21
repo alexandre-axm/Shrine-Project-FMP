@@ -3,7 +3,6 @@ if global.keysHeld >= 1
 	{
 		instance_destroy(self);
 		global.keysHeld -= 1;
-		audio_play_sound(SndBarrier,1,false);
 	}
 
 
