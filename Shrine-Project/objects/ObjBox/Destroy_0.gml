@@ -10,4 +10,3 @@ if drop = 2
 		instance_create_layer(x, y, "Instances", ObjPotion);
 	}
 
-audio_play_sound(SndGrabThrow,1,false);

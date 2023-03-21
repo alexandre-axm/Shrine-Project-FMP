@@ -44,7 +44,11 @@ if (!lifted)
 					{
 						thrown = false;
 						grav = 0.2;
-						if (destructable) breaking = true;
+						if destructable 
+						{
+							breaking = true;
+							alarm_set(0,15);
+						}
 					}
 				
 				throwPercent = throwStartPercent + lerp(0, 1 - throwStartPercent, throwDisTravelled / throwDis);
@@ -56,7 +60,8 @@ if (!lifted)
 						{
 							global.thrown = noone;
 							breaking = true;
-							instance_destroy();
+							alarm_set(0,15);
+							//instance_destroy();
 						}
 					}
 			}
@@ -70,7 +75,8 @@ if (!lifted)
 					{
 						global.thrown = noone;
 						breaking = true;
-						instance_destroy();
+						alarm_set(0,15);
+						//instance_destroy();
 					}
 				}
 				else

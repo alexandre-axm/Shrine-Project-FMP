@@ -2,6 +2,7 @@
 if eHealth <= 0
 	{
 		instance_destroy(self)
+		audio_play_sound(SndBossDeath,1,false);
 	}
 if (kbSpeed > 0) && place_free(x,y)
 	{

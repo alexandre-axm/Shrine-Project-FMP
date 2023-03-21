@@ -6,4 +6,5 @@ if state = OnryoStateRange
 	instance_create_layer(x, y, "Instances", ObjEFireball2, {direction : 180});
 	instance_create_layer(x, y, "Instances", ObjEFireball2, {direction : 270});
 	alarm_set(3,30)
+	audio_play_sound(SndFireball,1,false);
 }

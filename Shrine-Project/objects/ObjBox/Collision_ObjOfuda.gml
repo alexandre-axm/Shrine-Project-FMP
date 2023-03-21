@@ -5,5 +5,6 @@ solid = false;
 alarm_set(0,15);
 //instance_destroy(self);
 instance_destroy(other);
+audio_play_sound(SndBoxBreak,1,false);
 
 
