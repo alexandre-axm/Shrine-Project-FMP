@@ -53,12 +53,12 @@ if keyGrab //Grab Throw
 		if !holding && !cooldownM
 			{
 				state = PlayerStateGrab;
-				audio_play_sound(SndGrab,1,false);
+				audio_play_sound(SndMeleeAttack,1,false);
 			}
 		if holding && !cooldownM
 			{
 				state = PlayerStateThrow;
-				audio_play_sound(SndThrow,1,false);
+				audio_play_sound(SndMeleeAttack,1,false);
 			}
 	}
 if global.playerHealth <= 0 //Game Over

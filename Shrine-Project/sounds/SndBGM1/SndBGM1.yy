@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "SndBGM1.wav",
   "type": 1,
-  "volume": 0.33,
+  "volume": 0.5,
 }
