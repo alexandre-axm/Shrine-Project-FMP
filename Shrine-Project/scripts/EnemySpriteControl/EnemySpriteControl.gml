@@ -1,23 +1,34 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/*function EnemySpriteControl()
+function EnemySpriteControl()
 	{
-		switch(state)
+	if facing = 1 // Moving Left
+	{
+		sprite_index = sEWalkL;
+		//image_index = 0;
+		image_speed = 1;
+	}
+	if facing = 2 //Moving Right
+	{
+		sprite_index = sEWalkR;
+		//image_index = 0;
+		image_speed = 1;
+	}
+	if facing = 3 //Moving Up
+	{
+		sprite_index = sEWalkU;
+		//image_index = 0;
+		image_speed = 1;
+	}
+	if facing = 4 //Moving Down
+	{
+		sprite_index = sEWalkD;
+		//image_index = 0;
+		image_speed = 1;
+	}
+	if attacking
 		{
-			case states.IDLE:
-				sprite_index = sEnemyIdle
-			break;
-			case states.MOVE:
-				sprite_index = sEnemyMove
-			break;
-			case states.ATTACK:
-				sprite_index = sEnemyAttack
-			break;
-			case states.DEAD:
-				sprite_index = sEnemyDeath
-			break;
+			//image_index = 0;
+			image_speed = 3;
 		}
-		//Update Position
-		xp = x;
-		yp = y;
 	}

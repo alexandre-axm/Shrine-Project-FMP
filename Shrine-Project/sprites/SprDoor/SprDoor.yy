@@ -4,7 +4,7 @@
   "name": "SprDoor",
   "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"033e725b-a9b6-447f-a6d6-c2dcb38d7e07",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"260906fc-b318-41af-9185-80520d5540ea",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ed516fd1-45aa-4f64-a500-bdd8f8d61fe8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36a64d90-cd02-4a90-bf2c-e40a0e516e28","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 1,
@@ -54,12 +54,12 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"033e725b-a9b6-447f-a6d6-c2dcb38d7e07","path":"sprites/SprDoor/SprDoor.yy",},},},"Disabled":false,"id":"0147f15d-04ec-4109-bac8-b4ce6b0cd550","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"260906fc-b318-41af-9185-80520d5540ea","path":"sprites/SprDoor/SprDoor.yy",},},},"Disabled":false,"id":"268873ab-453d-4699-8dc9-da02ef3ff2b6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 32,
+    "xorigin": 16,
     "yorigin": 0,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 32,
 }

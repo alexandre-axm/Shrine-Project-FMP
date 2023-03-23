@@ -1,5 +1,7 @@
 // You can write your code in this editor
-instance_destroy(self);
-
-
-
+sprite_index = SprBoxBreak;
+image_speed = 1;
+solid = false;
+alarm_set(0,15);
+audio_play_sound(SndBoxBreak,2,false);
+instance_destroy(other);

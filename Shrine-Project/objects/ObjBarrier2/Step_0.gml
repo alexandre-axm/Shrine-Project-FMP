@@ -1,7 +1,7 @@
 // You can write your code in this editor
-if global.enemiesLeft <= 6
+if global.enemiesLeft <= 23
 	{
-		instance_destroy(self)
+		global.target = self;
 	}
 
 

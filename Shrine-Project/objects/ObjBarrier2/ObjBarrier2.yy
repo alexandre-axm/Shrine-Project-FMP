@@ -4,14 +4,18 @@
   "name": "ObjBarrier2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Level",
-    "path": "folders/Objects/Level.yy",
+    "name": "Barriers",
+    "path": "folders/Objects/Level/Level 1/Barriers.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ObjBarrierPar",
+    "path": "objects/ObjBarrierPar/ObjBarrierPar.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,7 +30,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "SprBarrier",
     "path": "sprites/SprBarrier/SprBarrier.yy",

@@ -1,8 +1,8 @@
 function PlayerStateRange()
 {
-if sprite_index = sPlayerL //Range Attack Left
+if facing = 0 //Range Attack Left
  {
-	 instance_create_layer(x - 32, y, "Instances", ObjOfuda,
+	 instance_create_layer(x - 16, y, "Instances", ObjOfuda,
 		{
 			direction : 180,
 			image_angle : 180
@@ -13,7 +13,7 @@ if sprite_index = sPlayerL //Range Attack Left
 	 alarm_set(1,30);
 	 alarm_set(5,15);
  }
-if sprite_index = sPlayerR //Range Attack Right
+if facing = 180 //Range Attack Right
  {
 	 instance_create_layer(x + 16, y, "Instances", ObjOfuda,
 		{
@@ -26,8 +26,8 @@ if sprite_index = sPlayerR //Range Attack Right
 	 alarm_set(1,30);
 	 alarm_set(5,15);
  }
-if sprite_index = sPlayerU //Range Attack Up
-{
+if facing = 270 //Range Attack Up
+ {
 	 instance_create_layer(x, y - 16, "Instances", ObjOfuda,
 		{
 			direction : 90,
@@ -38,10 +38,10 @@ if sprite_index = sPlayerU //Range Attack Up
 	 stopMove= true; // Briefly Stops Movement
 	 alarm_set(1,30);
 	 alarm_set(5,15);
-}
-if sprite_index = sPlayerD //Range Attack Down
+ }
+if facing = 90 //Range Attack Down
  {
-	 instance_create_layer(x, y + 32, "Instances", ObjOfuda,
+	 instance_create_layer(x, y + 16, "Instances", ObjOfuda,
 		{
 			direction : 270,
 			image_angle : 270
@@ -52,6 +52,5 @@ if sprite_index = sPlayerD //Range Attack Down
 	 alarm_set(1,30);
 	 alarm_set(5,15);
  }
-
 state = PlayerStateFree;
 }
