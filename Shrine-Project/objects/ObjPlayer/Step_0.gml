@@ -36,9 +36,8 @@ if vSpeed < 0 //Face Up
 		facing = 270;
 		image_speed = 1;
 	};
-PlayerSpriteControl();
 
+PlayerSpriteControl();
  
  global.stockR = clamp(global.stockR, 0, 30)
- global.playerHealth = clamp(global.playerHealth, 0, 10)
-	
+ global.playerHealth = clamp(global.playerHealth, 0, 10)	
