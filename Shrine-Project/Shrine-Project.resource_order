@@ -54,6 +54,7 @@
   "ResourceOrderSettings": [
     {"name":"SprEnemyHUD","order":3,"path":"sprites/SprEnemyHUD/SprEnemyHUD.yy",},
     {"name":"ObjCamera","order":4,"path":"objects/ObjCamera/ObjCamera.yy",},
+    {"name":"ObjMenu","order":7,"path":"objects/ObjMenu/ObjMenu.yy",},
     {"name":"SprGuide","order":14,"path":"sprites/SprGuide/SprGuide.yy",},
     {"name":"ObjEFireball2","order":9,"path":"objects/ObjEFireball2/ObjEFireball2.yy",},
     {"name":"SprBakenekoWalkL","order":1,"path":"sprites/SprBakenekoWalkL/SprBakenekoWalkL.yy",},

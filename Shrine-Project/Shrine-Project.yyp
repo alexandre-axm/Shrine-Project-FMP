@@ -72,6 +72,7 @@
   "resources": [
     {"id":{"name":"SprEnemyHUD","path":"sprites/SprEnemyHUD/SprEnemyHUD.yy",},},
     {"id":{"name":"ObjCamera","path":"objects/ObjCamera/ObjCamera.yy",},},
+    {"id":{"name":"ObjMenu","path":"objects/ObjMenu/ObjMenu.yy",},},
     {"id":{"name":"SprGuide","path":"sprites/SprGuide/SprGuide.yy",},},
     {"id":{"name":"SprBakenekoAtkL","path":"sprites/SprBakenekoAtkL/SprBakenekoAtkL.yy",},},
     {"id":{"name":"ObjEFireball2","path":"objects/ObjEFireball2/ObjEFireball2.yy",},},

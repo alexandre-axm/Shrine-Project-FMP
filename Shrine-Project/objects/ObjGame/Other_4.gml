@@ -17,4 +17,11 @@ mp_grid_add_instances(global.mpGrid, ObjAiGuide, true);
 alarm_set(0,30);
 
 //Background Music
+if room = Level1
+{
 audio_play_sound(SndBGM1,3,true);
+}
+else
+{
+audio_stop_sound(SndBGM1);
+}
