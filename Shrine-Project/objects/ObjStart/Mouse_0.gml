@@ -1,2 +1,2 @@
 // You can write your code in this editor
-room_goto(Level1);
+room_goto(Objective);

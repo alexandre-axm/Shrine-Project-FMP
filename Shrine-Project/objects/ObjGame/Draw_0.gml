@@ -1,4 +1,4 @@
-//Show HUD
+/*Show HUD
 draw_text(2800,0,global.playerHealth);
 draw_text(2800,32,global.stockR);
 draw_text(2800,64,global.keysHeld);

@@ -60,7 +60,7 @@ if keyGrab
 {
 	if global.selected == ObjStart
 	{
-		room_goto(Level1)
+		room_goto(Objective)
 		global.selected = noone;
 	}
 	if global.selected == ObjExitGame

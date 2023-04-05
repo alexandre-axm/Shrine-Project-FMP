@@ -12,10 +12,10 @@ else
 	shader_reset();
 };
 
-if keyboard_check(ord("P"))
+/*if keyboard_check(ord("P"))
 	{
 		draw_path(path, x, y, 0);
 	}
 	
-//draw_text(x+24, y-24, attacking);
+draw_text(x+24, y-24, attacking);
 
