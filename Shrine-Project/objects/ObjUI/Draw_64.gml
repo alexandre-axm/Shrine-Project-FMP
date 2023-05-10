@@ -33,3 +33,12 @@ draw_text(120,64,global.keysHeld);
 
 draw_sprite(SprEnemyHUD, 0, 168, 64);
 draw_text(192,64,global.enemiesLeft);
+
+if global.attackUp
+	{
+		draw_sprite(SprSword, 0, 384, 24)
+	};
+if global.defenceUp
+	{
+		draw_sprite(SprShield, 0, 420, 24)
+	};

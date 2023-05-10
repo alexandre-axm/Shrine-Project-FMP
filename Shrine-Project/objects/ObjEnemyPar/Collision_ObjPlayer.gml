@@ -1,30 +1,17 @@
 // Damage Player
-if !global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
+if !cooldownE && !lifted && !thrown
 	{
-		global.playerHealth -= 1;
-		global.cooldownH = true;
-		cooldownE = true;
-		disguiseOn = false;
-		path_end();
-		if attacking
-		{
-			kbMaxSpeed = 7;
-			attacking = false;
-		}
-		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
-		kbSpeed = (kbMaxSpeed/2);
-		alarm_set(0,30);
-		with ObjPlayer
+		if !global.cooldownH
 			{
-				alarm_set(4,10);
-				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
-				kbSpeed = kbMaxSpeed;
+				if !global.defenceUp //Normal Damage
+					{
+						global.playerHealth -= 1
+					}
+				if global.defenceUp //Half Damage
+					{
+						global.playerHealth -= 0.5
+					}
 			}
-			audio_play_sound(SndHurt,2,false);
-	}
-if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
-	{
-		global.playerHealth -= 0.5;
 		global.cooldownH = true;
 		cooldownE = true;
 		disguiseOn = false;
@@ -37,7 +24,7 @@ if global.defenceUp && !global.cooldownH && !cooldownE && !lifted && !thrown
 		kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
 		kbSpeed = (kbMaxSpeed/2);
 		alarm_set(0,30);
-		with ObjPlayer
+		with ObjPlayer //Knock Player Back
 			{
 				alarm_set(4,10);
 				kbDir = round(point_direction(other.x, other.y, x, y)/45)*45;
