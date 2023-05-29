@@ -3,7 +3,10 @@ if eHealth <= 0
 	{
 		instance_destroy(self)
 		global.enemiesLeft -= 1
+		return //If we are dead skip the rest of event
 	}
+	
+//Kickback movement
 if (kbSpeed > 0) && place_free(x,y)
 	{
 		kbSpeed -= kbDec;
@@ -11,6 +14,7 @@ if (kbSpeed > 0) && place_free(x,y)
 		y += lengthdir_y(kbSpeed, kbDir);
 	}
 	
+//Triggers when this object collides with another thrown object
 if collision_rectangle(x-12,y-12,x+12,y+12,global.thrown,false,true) && !cooldownE
 	{
 		eHealth -= 1;
