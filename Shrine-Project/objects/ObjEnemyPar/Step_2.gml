@@ -1,35 +1,32 @@
-// You can write your code in this editor
 if lifted && (instance_exists(ObjPlayer))
 	{
 		ObjPlayer.holding = true;
 		solid = false;
 		persistent = true;
-		if ObjPlayer.facing = 0 //Left
-		{
-			x = ObjPlayer.x - 19;
-			y = ObjPlayer.y -2;
-			depth = ObjPlayer.depth+1;
-			
-		}
-		if ObjPlayer.facing = 90 //Down
-		{
-			x = ObjPlayer.x;
-			y = ObjPlayer.y + 8;
-			depth = ObjPlayer.depth-1;
-		}
-		if ObjPlayer.facing = 180 //Right
-		{
-			x = ObjPlayer.x + 19;
-			y = ObjPlayer.y -2;
-			depth = ObjPlayer.depth+1;
-		}
-		if ObjPlayer.facing = 270 //Up
-		{
-			x = ObjPlayer.x;
-			y = ObjPlayer.y - 16;
-			depth = ObjPlayer.depth+1;
-		}
 		
+		switch (ObjPlayer.facing)
+		{
+			case 0: //Left
+					x = ObjPlayer.x - 19;
+					y = ObjPlayer.y -2;
+					depth = ObjPlayer.depth+1;
+				break;
+			case 90: //Down
+					x = ObjPlayer.x;
+					y = ObjPlayer.y + 8;
+					depth = ObjPlayer.depth-1;
+				break;
+			case 180: //Right
+					x = ObjPlayer.x + 19;
+					y = ObjPlayer.y -2;
+					depth = ObjPlayer.depth+1;
+				break;
+			case 270: //Up
+					x = ObjPlayer.x;
+					y = ObjPlayer.y - 16;
+					depth = ObjPlayer.depth+1;
+				break;
+		}
 	}
 if (!lifted)
 	{
