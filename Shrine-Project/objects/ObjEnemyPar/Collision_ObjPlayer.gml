@@ -1,10 +1,7 @@
 // Damage Player
 if !global.cooldownH && !cooldownE && !lifted && !thrown
 	{
-		if !global.defenceUp
-			global.playerHealth -= 1;
-		else
-			global.playerHealth -= 0.5;
+		global.playerHealth -= global.defenceUp ? 0.5 : 1
 		global.cooldownH = true;
 		cooldownE = true;
 		disguiseOn = false;

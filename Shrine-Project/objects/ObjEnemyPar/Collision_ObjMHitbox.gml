@@ -1,9 +1,7 @@
 if !cooldownE
 	{	
-		if !global.attackUp
-			eHealth -= 1;  //Standard Damage Value
-		else
-			eHealth -= 2; //Increased Damage Value
+		
+		eHealth -= global.attackUp ? 2 : 1  //Damage Value
 		cooldownE = true;
 		hurt = true;
 		disguiseOn = false;
