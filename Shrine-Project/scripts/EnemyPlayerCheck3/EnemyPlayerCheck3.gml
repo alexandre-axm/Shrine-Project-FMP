@@ -17,7 +17,7 @@ function EnemyPlayerCheck3(){
 	}
 	if distance < attackDis
 	{
-		xTarget = ObjPlayer.x - (-96 || 96);
-		yTarget = ObjPlayer.y - (-96 || 96);
+		xTarget = ObjPlayer.x + (choose(-96, 96));
+		yTarget = ObjPlayer.y + (choose(-96, 96));
 	}
 }
