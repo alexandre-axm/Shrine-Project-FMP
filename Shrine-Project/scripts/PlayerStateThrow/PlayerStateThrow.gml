@@ -6,30 +6,25 @@ function PlayerStateThrow(){
 			lifted = false;
 			persistent = false;
 			thrown = true;
-			if (ObjPlayer.facing = 0) //Left
+			
+			switch (ObjPlayer.facing)
 				{
-					direction = 180;
-					z = 7;
-					throwPeakH = z + 10;
+					case 0: //Left
+						direction = 180;
+						break;
+					case 90: //Down
+						direction = 270;
+						break;
+					case 180: //Right
+						direction = 0;
+						break;
+					case 270: //Up
+						direction = 90;
+						break;
 				}
-			if (ObjPlayer.facing = 90) //Down 
-				{
-					direction = 270;
-					z = 7;
-					throwPeakH = z + 10;
-				} 
-			if (ObjPlayer.facing = 180) //Right
-				{
-					direction = 0;
-					z = 7;
-					throwPeakH = z + 10;
-				} 
-			if (ObjPlayer.facing = 270) //Up
-				{
-					direction = 90;
-					z = 7;
-					throwPeakH = z + 10;
-				} 
+			z = 7;
+			throwPeakH = z + 10;
+			
 			throwDis = entityThrowDis;
 			throwDisTravelled = 0;
 			throwStartPercent = (10/throwPeakH) * 0.5;
