@@ -17,26 +17,32 @@ if place_free(x, y + vSpeed) && !stopMove
 	}
 
 //Sprite Direction
-if hSpeed > 0 && (!cooldownM && !cooldownR) //Face Right
+if (!cooldownM && !cooldownR)
 	{
-		facing = 180;
-		image_speed = 1;
-	};
-if hSpeed < 0 && (!cooldownM && !cooldownR) //Face Left
-	{
-		facing = 0;
-		image_speed = 1;
-	};
-if vSpeed > 0 && (!cooldownM && !cooldownR) //Face Down
-	{
-		facing = 90;
-		image_speed = 1;
-	};
-if vSpeed < 0 && (!cooldownM && !cooldownR) //Face Up
-	{
-		facing = 270;
-		image_speed = 1;
-	};
+		if (hSpeed != 0 or vSpeed != 0)
+			{
+				image_speed = 1;
+			}
+			
+		if hSpeed > 0 //Face Right
+			{
+				facing = 180;
+			};
+		if hSpeed < 0 //Face Left
+			{
+				facing = 0;
+			};
+			
+		if vSpeed > 0 //Face Down
+			{
+				facing = 90;
+			};
+		if vSpeed < 0 //Face Up
+			{
+				facing = 270;
+			};
+	}
+
 //Change State
 if ((keyMelee) && !cooldownM && !holding) //Melee Attack
 	{
