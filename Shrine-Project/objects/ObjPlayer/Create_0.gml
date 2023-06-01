@@ -69,3 +69,17 @@ global.enemiesLeft = 0;
 
 //Controller
 gamepad_set_axis_deadzone(0,0.5);
+
+//PlayersSpriteControl
+facingSprites = ds_map_create()
+facingSprites[? "sGrab"] = [sGrabR, sGrabL, sGrabD, sGrabU]
+facingSprites[? "sPlayer"] = [sPlayerR, sPlayerL, sPlayerD, sPlayerU]
+facingSprites[? "sMAttack"] = [sMAttackR, sMAttackL, sMAttackD, sMAttackU]
+facingSprites[? "sRAttack"] = [sRAttackR, sRAttackL, sRAttackD, sRAttackU]
+facingSprites[? "sThrow"] = [sThrowR, sThrowL, sThrowD, sThrowU]
+
+directionMap = ds_map_create()
+directionMap[? "180"] = 0
+directionMap[? "0"] = 1
+directionMap[? "90"] = 2
+directionMap[? "270"] = 3
