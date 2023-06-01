@@ -1,6 +1,5 @@
 if !cooldownE
 	{
-		
 		eHealth -= global.attackUp ? 2 : 1  //Attack Value
 		cooldownE = true;
 		hurt = true;
